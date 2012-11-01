@@ -61,12 +61,12 @@
     <div id="slideshow">
     
         <!--slider-item-->
-        <div class="slider-item">
+        <div class="slider-item clearfix">
             <div class="content">
                 
                 <!--slider-item content-->
                 <div style="float:left; padding:0 30px 0 0;">
-                <img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/mockup/slide-1.jpg"/>
+                <img class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/mockup/slide-1.jpg"/>
                 </div>
                 <h2>Sample product name</h2>
                 <strong>General</strong><br/>
@@ -81,12 +81,12 @@
         <!--EOF:slider-item-->
         
         <!--slider-item-->
-        <div class="slider-item">
+        <div class="slider-item clearfix">
             <div class="content">
             
                 <!--slider-item content-->
                 <div style="float:right; padding:0 0 0 30px;">
-                <img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/mockup/slide-2.jpg"/>
+                <img class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/mockup/slide-2.jpg"/>
                 </div>
                 <h2>Sample service name</h2>
                 <strong>General</strong><br/>
@@ -101,7 +101,7 @@
         <!--EOF:slider-item-->
         
         <!--slider-item-->
-        <div class="slider-item">
+        <div class="slider-item clearfix">
             <div class="content">
             
                 <!--slider-item content-->
@@ -118,11 +118,11 @@
         <!--EOF:slider-item-->
         
         <!--slider-item-->
-        <div class="slider-item">
+        <div class="slider-item clearfix">
             <div class="content">
                 
                 <!--slider-item content-->
-                <img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/mockup/slide-3.jpg"/>
+                <img class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/mockup/slide-3.jpg"/>
                 <!--EOF:slider-item content-->
             
             </div>
