@@ -504,11 +504,10 @@ ul.social-bookmarks li.delicious a { background:url('images/social-media-delicio
 
 .twtr-widget .twtr-tweet { border-bottom: 1px solid #353535 !important; padding: 0 0 5px 0; margin: 0 0 5px 0;  }
 
-
 /**
  * Local tasks
  */
-ul.primary, ul.tabs { clear:both; margin:0; white-space: normal }
+ul.primary, ul.tabs { clear:both; margin:10px 0; white-space: normal }
 
 ul.primary li, ul.tabs li { padding:10px 0; line-height:130%; }
 
