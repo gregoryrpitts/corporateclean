@@ -37,7 +37,7 @@
     <!-- #header-menu-inside -->
     <div id="header-menu-inside">
     
-        <div id="main-navigation" class="clearfix">
+        <div id="navigation" class="clearfix">
         <?php if ($page['navigation']) :?>
         <?php print drupal_render($page['navigation']); ?>
         <?php else :
