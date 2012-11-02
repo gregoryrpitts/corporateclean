@@ -99,4 +99,16 @@ function corporateclean_form_system_theme_settings_alter(&$form, &$form_state) {
 	'#default_value' => theme_get_setting('slideshow_randomize','corporateclean'),
   );
   
+  $form['mtt_settings']['slideshow']['slideshow_wrap'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Prevent slideshow from wrapping'),
+	'#default_value' => theme_get_setting('slideshow_wrap','corporateclean'),
+  );
+  
+  $form['mtt_settings']['slideshow']['slideshow_pause'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Pause slideshow on hover'),
+	'#default_value' => theme_get_setting('slideshow_pause','corporateclean'),
+  );
+  
 }
