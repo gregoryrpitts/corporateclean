@@ -52,7 +52,7 @@ blockquote { background:transparent url('images/blockquote.png') no-repeat top l
 
 #header-menu { clear:both; }
 
-#header-menu-inside { width: 960px; margin: 0 auto; height:45px; line-height:46px;} 
+#header-menu-inside { width: 960px; margin: 0 auto; } 
 
 #header-inside-left { float:left; width: 620px; padding:0 60px 0 0; margin:0; }
 
@@ -198,8 +198,12 @@ padding: 20px; overflow:hidden; background:#ffffff; margin:25px 0 0 0; font-styl
 
 #header-menu ul.menu li { display:inline-block; float:left; vertical-align: middle; padding:0; margin:0; }
 
-#header-menu ul.menu li a { outline:none; text-decoration: none; margin:0 35px 0 0; font-size:14px; font-weight:normal; text-align:center; text-transform:uppercase; 
-font-family: Myriad Pro,"Lucida Grande","Lucida Sans Unicode",Segoe UI,Helvetica,Arial,sans-serif; display:block; }
+#header-menu ul.menu li a { outline:none; text-decoration: none; margin:0 35px 0 0; padding:10px 5px; font-size:14px; font-weight:normal; 
+text-align:center; text-transform:uppercase; font-family: Myriad Pro,"Lucida Grande","Lucida Sans Unicode",Segoe UI,Helvetica,Arial,sans-serif; display:block; }
+
+#header-menu ul.menu li.first a { padding-left:0; }
+
+#header-menu ul.menu li.last a { padding-right:0; }
 
 #header-menu ul.menu li a:hover, #header-menu ul.menu li a.active { color:#1487d4; }
 
@@ -207,7 +211,7 @@ font-family: Myriad Pro,"Lucida Grande","Lucida Sans Unicode",Segoe UI,Helvetica
 
 #header-menu ul.menu li.expanded { position: relative; }
 
-#header-menu ul.menu li.expanded a { background:transparent url('images/main-menu-expanded.png') no-repeat center right; padding:0 15px 0 0; }
+#header-menu ul.menu li.expanded a { background:transparent url('images/main-menu-expanded.png') no-repeat center right; padding:10px 15px 10px 10px; }
 
 /* 2nd Level */
 #header-menu ul.menu li.expanded ul.menu { width: 230px; z-index:100; padding:0; display: none; position: absolute; }

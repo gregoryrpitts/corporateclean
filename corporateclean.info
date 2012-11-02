@@ -6,6 +6,7 @@ core = 7.x
 stylesheets[all][] = style.css
 stylesheets[all][] = color/colors.css
 
+regions[navigation] = Navigation
 regions[search_area] = Search area
 regions[highlighted] = Highlighted
 regions[content] = Content
