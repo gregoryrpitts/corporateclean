@@ -30,5 +30,3 @@ settings[slideshow_effect_time]='10'
 settings[slideshow_randomize]='0'
 settings[slideshow_wrap]='0'
 settings[slideshow_pause]='0'
-
-project = "corporateclean"
