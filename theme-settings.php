@@ -26,10 +26,23 @@ function corporateclean_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['mtt_settings']['breadcrumb']['breadcrumb_display'] = array(
     '#type' => 'checkbox',
     '#title' => t('Show breadcrumb'),
-  	'#description'   => t('Use the checkbox to enable or disable Breadcrumb.'),
+  	'#description'   => t('Use the checkbox to enable or disable breadcrumb.'),
 	'#default_value' => theme_get_setting('breadcrumb_display','corporateclean'),
-    '#collapsible' => TRUE,
-	'#collapsed' => FALSE,
+  );
+  
+  $form['mtt_settings']['breadcrumb']['breadcrumb_separator'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Breadcrumb separator'),
+	'#default_value' => theme_get_setting('breadcrumb_separator','corporateclean'),
+    '#size'          => 5,
+    '#maxlength'     => 10,
+  );
+  
+  $form['mtt_settings']['breadcrumb']['breadcrumb_home'] = array(
+    '#type'          => 'checkbox',
+    '#title'         => t('Show home page link in breadcrumb'),
+  	'#description'   => t('Use the checkbox to enable or disable the home page link in breadcrumb.'),
+    '#default_value' => theme_get_setting('breadcrumb_home'),
   );
   
   $form['mtt_settings']['slideshow'] = array(
