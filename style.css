@@ -368,6 +368,11 @@ font-family: "Lucida Grande","Lucida Sans Unicode",Segoe UI,Helvetica,Arial,sans
  /* shadow */
 -webkit-box-shadow: 0px 2px 5px #c8c8c8 inset;  -moz-box-shadow: 0px 2px 5px #c8c8c8 inset;  box-shadow: 0px 2px 5px #c8c8c8 inset; }
 
+/*
+* Search
+*/
+#header #block-search-form { margin:15px 0 0 0; }
+
 #block-search-form .form-item { margin:0; padding:0; }
 
 #block-search-form input.form-text { background:none; border:none; outline:none; text-decoration: none; color:#9f9f9f; float:left; width:218px; padding:10px; margin:0; 
