@@ -549,6 +549,82 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
  * San Diego Athletics Modifications
  */
 
+.workout {
+	padding:10px;
+	background:#FFFFFF;
+	border-radius:5px;
+	margin-bottom:20px;
+}
+
+.node.node-agility-session.node-teaser { 
+	margin-bottom:5px; 
+}
+
+.workout-agilityteaser {
+	background:#E8E8E8;
+	border-radius: 5px;
+	padding:20px;
+	margin-bottom:10px;	
+}
+
+.workout-agilityteaser .field-label {
+	padding:10px;
+	background:#B0182F;
+	border-radius:5px;
+	border: 10px;
+	color:#FFFFFF;
+	text-align:center;
+	margin-bottom: 10px;
+}
+
+.workout-agilityteaser.grid_7 {
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.workout-fullworkout.grid_7 {
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.workout-fullworkout {
+	background:#E8E8E8;
+	border-radius: 5px;
+	padding:20px;
+	margin-bottom:10px;
+}
+
+.workout-fullworkout .field-label {
+	padding:10px;
+	background:#B0182F;
+	border-radius:5px;
+	border: 10px;
+	color:#FFFFFF;
+	text-align:center;
+	margin-bottom: 10px;
+}
+
+.workout-subworkout {
+	background:#E8E8E8;
+	border-radius: 5px;
+	padding:10px;
+    margin-bottom:10px;
+}
+
+.workout-subworkout .field-label {
+	padding:10px;
+	background:#B0182F;
+	border-radius:5px;
+	border: 10px;
+	color:#FFFFFF;
+	text-align:center;
+	margin-bottom: 10px;
+}
+
+.workout-subworkout.grid_3_5 {
+	margin-left:0px;
+	margin-right:20px;
+}
 
 .knowledge-article {
 	padding:10px;
