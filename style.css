@@ -551,13 +551,24 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 
 .workout {
 	padding:10px;
-	background:#FFFFFF;
+	background:#FDFDFD;
 	border-radius:5px;
 	margin-bottom:20px;
+	box-shadow: 0 2px 6px #efefef inset;
 }
 
-.node.node-agility-session.node-teaser { 
+.node.node-warmup-agility-session.node-teaser { 
 	margin-bottom:5px; 
+}
+
+.field-name-field-title-to-display {
+	padding:10px;
+	color:#B0182F;
+	border: 10px;
+	text-align:center;
+	margin-bottom: 10px;
+	width:95%;
+	font-size:24px;
 }
 
 .workout-agilityteaser {
@@ -608,7 +619,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	background:#E8E8E8;
 	border-radius: 5px;
 	padding:10px;
-    margin-bottom:10px;
+    	margin-bottom:10px;
 }
 
 .workout-subworkout .field-label {
