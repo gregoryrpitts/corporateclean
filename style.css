@@ -561,6 +561,26 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-bottom:5px; 
 }
 
+.region-sidebar-second .block .view-header {
+	border-radius:5px;
+	border: 10px;
+	color:#B0182F;
+	text-align:center;
+	font-size:24px;
+	padding:10px;
+}
+
+
+.page-archive- h1 {
+	padding:10px;
+	background:#B0182F;
+	border-radius:5px;
+	border: 10px;
+	color:#FFFFFF;
+	text-align:center;
+	margin-bottom: 15px;
+}
+
 .view-workout-log .view-header {
 	margin-bottom:5px;
 	color:#7a7a7a;
