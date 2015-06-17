@@ -600,6 +600,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	border: 10px;
 	text-align:center;
 	margin-bottom: 10px;
+	margin-top: 10px;
 	width:95%;
 	font-size:24px;
 }
@@ -697,6 +698,11 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
      text-align: center;
  }
  
+ .node-knowledge-article.node-teaser img {
+	 border:1px black solid;
+	 padding:0px
+ }
+ 
  .node-knowledge-article.node-teaser h2:hover{
 	 background:rgba(108,50,34,0.6);
  }
@@ -704,6 +710,8 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
  .relative-node-teaser {
 	 position:relative;
  }
+ 
+ .node-teaser-image
  
 .knowledge-article {
 	padding:10px;
