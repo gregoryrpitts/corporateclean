@@ -548,9 +548,14 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 /**
  * San Diego Athletics Modifications
  */
-.centered-menu {
-	text-align:center;
+#navigation ul.menu li {
+float: none;
 }
+
+.region-navigation ul.menu{
+	text-align:center!important;
+}
+
 /*****************************************************************************/
 /*
  * Basic Page
