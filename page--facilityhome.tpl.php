@@ -40,7 +40,7 @@
     <div id="header-menu-inside" class="container_12 clearfix">
     
     	<div class="grid_12">
-            <div id="navigation" class="clearfix">
+            <div id="navigation" class="clearfix" class="centered-menu">
             <?php if ($page['navigation']) :?>
             <?php print drupal_render($page['navigation']); ?>
             <?php else :
