@@ -597,6 +597,29 @@ float: none;
 }
 
 /*****************************************************************************/
+/*
+ * Programs Page
+ */
+
+.programs_main_page .region-content {
+	background:#FDFDFD;
+	box-shadow: 0 2px 6px #efefef inset;
+	border-radius:5px;
+	padding-bottom:20px;
+ }
+
+.programs_main_page .views-field-view-node {
+	background: #B0182F;
+	border-radius: 5px;
+	float:right;
+	padding:5px;
+	margin-top:5px;
+}
+
+.programs_main_page .views-field-view-node a{
+	color:#FDFDFD;
+}
+/*****************************************************************************/
 
 .workout {
 	padding:10px;
