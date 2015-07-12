@@ -558,6 +558,12 @@ float: none;
 
 /*****************************************************************************/
 /*
+ * Utility
+ */
+
+
+/*****************************************************************************/
+/*
  * Basic Page
  */
 
@@ -619,6 +625,19 @@ float: none;
 .programs_main_page .views-field-view-node a{
 	color:#FDFDFD;
 }
+
+ .header-panel-text {
+	 text-align:center;
+ }
+ 
+ .header-panel-image p {
+	 margin:15px 0px 0px 0px;
+ }
+ 
+ .header-panel-image img {
+	 border-radius:5px;
+ }
+ 
 /*****************************************************************************/
 
 .workout {
