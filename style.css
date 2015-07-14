@@ -561,13 +561,52 @@ float: none;
  * Utility
  */
 
+/*****************************************************************************/
+/*
+ * Square Block
+ */
+.square-block {
+	position:relative;
+	background:#FFFFFF;
+	border-radius:5px;
+
+}
+
+.square-block img {
+	border-radius:5px;
+	padding:0px;
+	border:0px;
+	width:100%;
+	padding-left:10px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:5px;
+	border-radius:15px;
+}
+
+.square-block h2 {
+	 position:absolute;
+	 z-index:100;
+	 margin:0px;
+	 padding-top:15px;
+	 padding-bottom:15px;
+	 bottom:5px;
+	 vertical-align: bottom;
+	 background: rgba(0,0,0,0.5);
+	 width:100%;
+     text-align: center;
+	 border-radius:5px;
+	 color:#FDFDFD
+}
+
+.square-block p {
+	margin-bottom:0px;
+}
 
 /*****************************************************************************/
 /*
  * Basic Page
  */
-
-
 .facilities-home-page-panel img {
 	border-radius:5px;
 	padding:0px;
@@ -601,6 +640,20 @@ float: none;
 .facilities-home-page-panel a{
 	color:#FFFFFF; 
 }
+
+/*****************************************************************************/
+/*
+ * Schedule Page
+ */
+
+.class-schedule-full {
+	background:white;
+	box-shadow: 0 2px 6px #efefef inset;
+	border-radius:5px;
+	padding-left:10px;
+	padding-top:10px;
+	padding-right:10px;
+ }
 
 /*****************************************************************************/
 /*
