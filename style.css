@@ -577,19 +577,17 @@ float: none;
 	padding:0px;
 	border:0px;
 	width:100%;
-	padding-left:10px;
 	padding-top:10px;
-	padding-right:10px;
 	padding-bottom:5px;
-	border-radius:15px;
+	border-radius:10px;
 }
 
 .square-block h2 {
 	 position:absolute;
 	 z-index:100;
 	 margin:0px;
-	 padding-top:15px;
-	 padding-bottom:15px;
+	 padding-top:15px!important;
+	 padding-bottom:15px!important;
 	 bottom:5px;
 	 vertical-align: bottom;
 	 background: rgba(0,0,0,0.5);
@@ -597,6 +595,11 @@ float: none;
      text-align: center;
 	 border-radius:5px;
 	 color:#FDFDFD
+}
+
+.square-block a {
+	 color:#FDFDFD;
+	 width:100%;
 }
 
 .square-block p {
@@ -653,6 +656,13 @@ float: none;
 	padding-left:10px;
 	padding-top:10px;
 	padding-right:10px;
+ }
+ 
+ .schedule-page .region-content {
+	 background-color:white;
+	 border-radius:5px;
+	 padding-bottom:15px;
+	 padding-top:15px;
  }
 
 /*****************************************************************************/
