@@ -1,43 +1,23 @@
-<!-- #header -->
-<div id="header">
-	<!-- #header-inside -->
-    <div id="header-inside" class="container_12 clearfix">
-    	<!-- #header-inside-left -->
-        <div id="header-inside-left" class="grid_8">
+<section id="front-page-header">
+    <div class="front-page-row">
+        <h1 style="display:block">
+            <img id="test" width="400" src="sites/default/files/images/San-Diego-Athletics-Logo-White.png" alt="Logo">
+        </h1>           
+        <h1 id="test" style="display:block">
+            <img width="400" src="sites/default/files/images/San-Diego-Athletics-Name-White.png" alt="Logo">
+        </h1>
+        <p>
+            1019 Garnet Avenue
+            </br>
+            San Diego, CA 92109
+            </p>
             
-            <?php if ($logo): ?>
-            <a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
-            <?php endif; ?>
-     
-            <?php if ($site_name || $site_slogan): ?>
-            <div class="clearfix">
-            <?php if ($site_name): ?>
-            <span id="site-name"><a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a></span>
-            <?php endif; ?>
-            <?php if ($site_slogan): ?>
-            <span id="slogan"><?php print $site_slogan; ?></span>
-            <?php endif; ?>
-            </div>
-            <?php endif; ?>
-            
-        </div><!-- EOF: #header-inside-left -->
-        
-        <!-- #header-inside-right -->    
-        <div id="header-inside-right" class="grid_4">
-
-			<?php print render($page['search_area']); ?>
-
-        </div><!-- EOF: #header-inside-right -->
-    
-    </div><!-- EOF: #header-inside -->
-
-</div><!-- EOF: #header -->
-
-
+    </div>
+</section>
 
 
 <!-- #content -->
-<div id="content">
+<div id="content" class="front-page-content">
 	<!-- #content-inside -->
     <div id="content-inside" class="container_12 clearfix">
         

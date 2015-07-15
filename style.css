@@ -548,6 +548,32 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 /**
  * San Diego Athletics Modifications
  */
+ 
+ /* FOR FADING : DON'T REMOVE IT */
+.fade1,.fade2,.fade3,.fade4{  
+    display:none;}
+
+.fade2 span{
+  font-size:1.5em;
+  line-height:1;
+}
+
+#loading {
+    background: #363f48;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+#loading img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 5%;
+}
+
+ 
 #navigation ul.menu li {
 float: none;
 }
@@ -558,8 +584,71 @@ float: none;
 
 /*****************************************************************************/
 /*
- * Utility
+ * Front Page!!
  */
+.front-page-row {
+  width: 100%;
+  max-width: 940px;
+  min-width: 320px;
+  margin: 0 auto;
+  text-align:center;
+  
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+
+.front-page-content {
+	background:#FFFFFF!important;
+}
+
+#front-page-header {
+   width: 100%;
+   height: 700px;
+   min-height: 450px;
+   background: url('images/CrossFit-Garnet.jpg') #000 no-repeat center center fixed;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/*****************************************************************************/
+/*
+ * Block Search
+ */
+#header #block-search-form {
+	margin-top:35px;
+}
 
 /*****************************************************************************/
 /*
