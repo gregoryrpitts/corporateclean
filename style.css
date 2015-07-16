@@ -775,12 +775,71 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
     box-shadow: 0 0 10px black;
 }
 
+.front-page-footer {
+	padding: 20px 0 20px 0!important;
+}
+
 /*****************************************************************************/
 /*
  * Block Search
  */
 #header #block-search-form {
 	margin-top:35px;
+}
+
+/*
+ * Social Media Block
+ */
+ 
+.social-icons li {
+	display:inline-block;	 
+	padding-right:6px;
+ }
+ 
+.social-media-block ul {
+	text-align:center!important;
+	padding-left:0px;
+}
+ 
+.social-icons li a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+ 
+.social-icons li:hover a {
+   background-position: 0 -38px;
+}
+ 
+.social_facebook {
+  background: url(images/facebook.png) no-repeat;
+}
+
+.social_twitter {
+  background: url(images/twitter.png) no-repeat;
+}
+
+.social_googleplus {
+  background: url(images/googleplus.png) no-repeat;
+}
+
+.social_instagram {
+  background: url(images/instagram.png) no-repeat;
+}
+
+.social_youtube {
+  background: url(images/youtube.png) no-repeat;
+}
+
+.rounded-x {
+  border-radius: 50% !important;
 }
 
 /*****************************************************************************/

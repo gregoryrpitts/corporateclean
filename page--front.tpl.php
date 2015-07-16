@@ -73,22 +73,14 @@
 </section>
 
 <!-- #footer -->    
-<div id="footer">
+<div id="footer" class="front-page-footer">
 	<!-- #footer-inside -->
     <div id="footer-inside" class="container_12 clearfix">
     
-        <div class="footer-area grid_4">
+        <div class="footer-area grid_12">
         <?php print render($page['footer_first']); ?>
         </div><!-- EOF: .footer-area -->
         
-        <div class="footer-area grid_4">
-        <?php print render($page['footer_second']); ?>
-        </div><!-- EOF: .footer-area -->
-        
-        <div class="footer-area grid_4">
-        <?php print render($page['footer_third']); ?>
-        </div><!-- EOF: .footer-area -->
-       
     </div><!-- EOF: #footer-inside -->
 
 </div><!-- EOF: #footer -->
