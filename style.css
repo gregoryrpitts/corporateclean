@@ -575,10 +575,19 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 
  
 #navigation ul.menu li {
-float: none;
+	float: none;
 }
 
 .region-navigation ul.menu{
+	text-align:center!important;
+}
+
+#footer-bottom-left ul.menu li {
+	float:none;
+	display:inline;
+}
+
+.region-footer ul.menu{
 	text-align:center!important;
 }
 
@@ -586,7 +595,7 @@ float: none;
 /*
  * Front Page!!
  */
-.front-page-row {
+.front-page-header {
   width: 100%;
   max-width: 940px;
   min-width: 320px;
@@ -600,10 +609,6 @@ float: none;
   animation: fadein 3s;
 }
 
-.front-page-content {
-	background:#FFFFFF!important;
-}
-
 #front-page-header {
    width: 100%;
    height: 700px;
@@ -611,6 +616,51 @@ float: none;
    background: url('images/CrossFit-Garnet.jpg') #000 no-repeat center center fixed;
    background-size: cover;
    background-attachment: fixed;
+}
+
+.front-page-content {
+	z-index:999;
+	position:relative;
+	background:#FFFFFF!important;
+	
+	  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+
+.front-page-content .mission-statement {
+	color: #7a7a7a;
+    font: 2.2em  sans-serif;
+    padding-bottom: 0px;
+    padding-top: 0px;
+	text-align:center;
+}
+
+.front-page-mini-panel-left {
+	-webkit-transition: -webkit-transform 0.5s;
+	-moz-transition: -moz-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.front-page-mini-panel-left.front-page-mini-panel-title {
+	color:#7a7a7a;
+	margin-top:10px;
+	font: 2.0em  sans-serif;
+}
+
+.front-page-mini-panel-left.front-page-mini-panel-title p {
+	margin-bottom:2px;
+}
+
+.front-page-mini-panel-left.front-page-mini-panel-body {
+	color:#7a7a7a;
+	font: 1.2em  sans-serif;
+}
+
+.front-page-mini-panel-right img {
+	border-radius:5px;
 }
 
 @keyframes fadein {
@@ -640,6 +690,89 @@ float: none;
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+.front-page-constant-contact {
+  width: 100%;
+  max-width: 940px;
+  min-width: 320px;
+  margin: 0 auto;
+  text-align:center;
+  
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+
+#front-page-constant-contact {
+   width: 100%;
+   height: 300px;
+   min-height: 300px;
+   background: #B0182F;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.constant-contact-block .form-item{
+	margin-top:0px;
+}
+
+.constant-contact-block label{
+	color:white;
+	text-shadow: 0 1px 1px #003547;
+}
+
+.constant-contact-block .form-item-cc-FirstName-1 {
+	display: inline-block;
+    width: 45%;
+    margin: 0px;
+}
+
+.constant-contact-block .form-item-cc-LastName-1 {
+	display: inline-block;
+    width: 45%;
+    margin: 0px;
+}
+
+.constant-contact-block .form-required {
+	color:white;
+	text-shadow: 0 1px 1px #003547;
+}
+
+.front-page-constant-contact h2 {
+	color:white;
+	margin-top:0px;
+	padding-top:25px;
+	text-align:center;
+	text-shadow: 0 1px 1px #003547;
+}
+
+.front-page-constant-contact #edit-submit--2 {
+	color:#B0182f;
+	background:white;
+	border-radius:5px;
+	width:120px;
+	height:50px;
+	font-weight:normal;
+	font-size:1.2em;
+}
+
+.front-page-constant-contact input.form-text {
+	background:white;
+}	
+
+.front-page-constant-contact input.form-text:focus { 
+    outline: none !important;
+    border-color: #000000;
+    box-shadow: 0 0 10px black;
+}
+
+.front-page-constant-contact #edit-submit--2:focus {
+    outline: none !important;
+    border-color: #000000;
+    box-shadow: 0 0 10px black;
 }
 
 /*****************************************************************************/

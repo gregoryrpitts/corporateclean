@@ -1,12 +1,12 @@
 <section id="front-page-header">
-    <div class="front-page-row">
+    <div class="front-page-header">
         <h1 style="display:block">
             <img id="test" width="400" src="sites/default/files/images/San-Diego-Athletics-Logo-White.png" alt="Logo">
         </h1>           
         <h1 id="test" style="display:block">
             <img width="400" src="sites/default/files/images/San-Diego-Athletics-Name-White.png" alt="Logo">
         </h1>
-        <p>
+        <p style="text-align:center">
             1019 Garnet Avenue
             </br>
             San Diego, CA 92109
@@ -18,6 +18,7 @@
 
 <!-- #content -->
 <div id="content" class="front-page-content">
+
 	<!-- #content-inside -->
     <div id="content-inside" class="container_12 clearfix">
         
@@ -30,12 +31,6 @@
             <?php if ($messages): ?>
             <div id="console" class="clearfix">
             <?php print $messages; ?>
-            </div>
-            <?php endif; ?>
-     
-            <?php if ($page['help']): ?>
-            <div id="help">
-            <?php print render($page['help']); ?>
             </div>
             <?php endif; ?>
             
@@ -60,8 +55,22 @@
         </div><!-- EOF: #main -->
 
     </div><!-- EOF: #content-inside -->
-
+ 
 </div><!-- EOF: #content -->
+
+<section id="front-page-constant-contact">
+    <div class="front-page-constant-contact">
+        <h2>
+            Sign up for our mailing list to get article updates and more!
+        </h2>
+        
+        <?php if ($page['help']): ?>
+        <div id="help">
+        <?php print render($page['help']); ?>
+        </div>
+        <?php endif; ?>
+    </div>
+</section>
 
 <!-- #footer -->    
 <div id="footer">
@@ -90,20 +99,13 @@
 	<!-- #footer-bottom-inside --> 
     <div id="footer-bottom-inside" class="container_12 clearfix">
     	<!-- #footer-bottom-left --> 
-    	<div id="footer-bottom-left" class="grid_8">
-        
-            <?php print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('class' => array('secondary-menu', 'links', 'clearfix')))); ?>
+    	<div id="footer-bottom-left" class="grid_12">
             
             <?php print render($page['footer']); ?>
             
+            <p style="text-align:center">© 2015 San Diego Athletics</p>
+            
         </div>
-    	<!-- #footer-bottom-right --> 
-        <div id="footer-bottom-right" class="grid_4">
-        
-        	<?php print render($page['footer_bottom_right']); ?>
-        
-        </div><!-- EOF: #footer-bottom-right -->
-       
     </div><!-- EOF: #footer-bottom-inside -->
 
 </div><!-- EOF: #footer -->
