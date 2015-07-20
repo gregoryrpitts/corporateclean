@@ -638,6 +638,11 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	text-align:center;
 }
 
+.pane-front-page-workouts {
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
 .front-page-mini-panel-left {
 	-webkit-transition: -webkit-transform 0.5s;
 	-moz-transition: -moz-transform 0.5s;
@@ -659,8 +664,13 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	font: 1.2em  sans-serif;
 }
 
+.front-page-mini-panel-right p {
+	margin-bottom:0px;
+}
+
 .front-page-mini-panel-right img {
 	border-radius:5px;
+	margin-bottom:2px;
 }
 
 @keyframes fadein {
@@ -917,6 +927,28 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	 padding:15px;
  }
  
+ .facilities-front-page-section {
+	 background:#FFFFFF;
+	 border-radius:5px;
+	 padding:15px;
+	 margin-bottom:15px;
+	 position:relative;
+	 border: 1px solid #B0182F;
+
+ }
+ 
+ .facility-page-section-step p {
+	 position:absolute;
+	 left:0px;
+     top:0px;
+	 background-color:#B0182F;
+	 color:white;
+	float:left;
+	width:100%;
+	text-align:center;
+	margin-bottom:10px;
+ }
+  
 .facilities-home-page-panel {
 	 position:relative;
  }
