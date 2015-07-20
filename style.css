@@ -591,9 +591,126 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	text-align:center!important;
 }
 
+
 /*****************************************************************************/
+/*****************************************************************************/
+/* Blocks */
+/*****************************************************************************/
+/*****************************************************************************/
+
 /*
- * Front Page!!
+ * Block Search
+ */
+#header #block-search-form {
+	margin-top:35px;
+}
+
+/*
+ * Social Media Block
+ */
+.social-icons li {
+	display:inline-block;	 
+	padding-right:6px;
+ }
+ 
+.social-media-block ul {
+	text-align:center!important;
+	padding-left:0px;
+}
+ 
+.social-icons li a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+ 
+.social-icons li:hover a {
+   background-position: 0 -38px;
+}
+ 
+.social_facebook {
+  background: url(images/facebook.png) no-repeat;
+}
+
+.social_twitter {
+  background: url(images/twitter.png) no-repeat;
+}
+
+.social_googleplus {
+  background: url(images/googleplus.png) no-repeat;
+}
+
+.social_instagram {
+  background: url(images/instagram.png) no-repeat;
+}
+
+.social_youtube {
+  background: url(images/youtube.png) no-repeat;
+}
+
+.rounded-x {
+  border-radius: 50% !important;
+}
+
+/*
+ * Square Block
+ */
+.square-block {
+	position:relative;
+	background:#FFFFFF;
+	border-radius:5px;
+
+}
+
+.square-block img {
+	border-radius:5px;
+	padding:0px;
+	border:0px;
+	width:100%;
+	padding-top:10px;
+	padding-bottom:5px;
+	border-radius:10px;
+}
+
+.square-block h2 {
+	 position:absolute;
+	 z-index:100;
+	 margin:0px;
+	 padding-top:15px!important;
+	 padding-bottom:15px!important;
+	 bottom:5px;
+	 vertical-align: bottom;
+	 background: rgba(0,0,0,0.5);
+	 width:100%;
+     text-align: center;
+	 border-radius:5px;
+	 color:#FDFDFD
+}
+
+.square-block a {
+	 color:#FDFDFD;
+	 width:100%;
+}
+
+.square-block p {
+	margin-bottom:0px;
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+/* Pages */
+/*****************************************************************************/
+/*****************************************************************************/
+
+/*
+ * Front Pages
  */
 .front-page-header {
   width: 100%;
@@ -652,7 +769,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
     padding-top: 0px;
 	text-align:center;
 }
-div.padded-link a { padding: 5px; }
+
 .pane-front-page-workouts {
 	margin-top:15px;
 	margin-bottom:15px;
@@ -804,117 +921,8 @@ div.padded-link a { padding: 5px; }
 	padding: 20px 0 20px 0!important;
 }
 
-/*****************************************************************************/
 /*
- * Block Search
- */
-#header #block-search-form {
-	margin-top:35px;
-}
-
-/*
- * Social Media Block
- */
- 
-.social-icons li {
-	display:inline-block;	 
-	padding-right:6px;
- }
- 
-.social-media-block ul {
-	text-align:center!important;
-	padding-left:0px;
-}
- 
-.social-icons li a {
-  width: 28px;
-  height: 28px;
-  display: inline-block;
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-}
- 
-.social-icons li:hover a {
-   background-position: 0 -38px;
-}
- 
-.social_facebook {
-  background: url(images/facebook.png) no-repeat;
-}
-
-.social_twitter {
-  background: url(images/twitter.png) no-repeat;
-}
-
-.social_googleplus {
-  background: url(images/googleplus.png) no-repeat;
-}
-
-.social_instagram {
-  background: url(images/instagram.png) no-repeat;
-}
-
-.social_youtube {
-  background: url(images/youtube.png) no-repeat;
-}
-
-.rounded-x {
-  border-radius: 50% !important;
-}
-
-/*****************************************************************************/
-/*
- * Square Block
- */
-.square-block {
-	position:relative;
-	background:#FFFFFF;
-	border-radius:5px;
-
-}
-
-.square-block img {
-	border-radius:5px;
-	padding:0px;
-	border:0px;
-	width:100%;
-	padding-top:10px;
-	padding-bottom:5px;
-	border-radius:10px;
-}
-
-.square-block h2 {
-	 position:absolute;
-	 z-index:100;
-	 margin:0px;
-	 padding-top:15px!important;
-	 padding-bottom:15px!important;
-	 bottom:5px;
-	 vertical-align: bottom;
-	 background: rgba(0,0,0,0.5);
-	 width:100%;
-     text-align: center;
-	 border-radius:5px;
-	 color:#FDFDFD
-}
-
-.square-block a {
-	 color:#FDFDFD;
-	 width:100%;
-}
-
-.square-block p {
-	margin-bottom:0px;
-}
-
-/*****************************************************************************/
-/*
- * Basic Page
+ * Facility Front Page
  */
 .facilities-home-page-panel img {
 	border-radius:5px;
@@ -949,7 +957,6 @@ div.padded-link a { padding: 5px; }
 	 margin-bottom:15px;
 	 position:relative;
 	 border: 1px solid #B0182F;
-
  }
  
  .facility-page-section-step p {
@@ -983,13 +990,45 @@ div.padded-link a { padding: 5px; }
 .page-facility .facility-page-read-more {
 	background: #B0182F;
 	border-radius: 5px;
-	float:right;
+	float:left;
 	padding:5px;
 	margin-top:5px;
 }
 
 .page-facility .facility-page-read-more a{
 	color:#FDFDFD;
+}
+
+/*
+ * Custom Facility Page
+ */
+
+.facility-custom-page .layout-responsive-region-sidebar_a {
+	padding:15px;
+	background:white;
+	border-radius:5px;
+}
+
+.facility-custom-page .layout-responsive-region-body .field-name-body {
+	background:white;
+	padding:15px;
+	border-radius:5px;
+}
+
+.facility-custom-page .layout-responsive-region-body .webform-client-form {
+	margin-top:15px;
+	background:white;
+	padding:15px;
+	border-radius:5px;
+}
+
+.facility-custom-page .layout-responsive-region-body .webform-client-form .form-item {
+	text-align:center;
+}
+
+.facility-custom-page .layout-responsive-region-body .webform-client-form .webform-submit {
+	margin:auto;
+	display:block;	
 }
 
 /*****************************************************************************/
