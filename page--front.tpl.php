@@ -6,15 +6,20 @@
         <h1 id="test" style="display:block">
             <img width="400" src="sites/default/files/images/San-Diego-Athletics-Name-White.png" alt="Logo">
         </h1>
-        <p style="text-align:center">
+        <p style="text-align:center; color:white">
             1019 Garnet Avenue
             </br>
             San Diego, CA 92109
+            </br>
+            858.246.7357
+            </br>
+            info@sandiegoathletics.com
             </p>
-            
+                <p class="front-page-getting-started-button">
+                    <a href="facility/getstarted">Get Started Now!</a>
+                </p>
     </div>
 </section>
-
 
 <!-- #content -->
 <div id="content" class="front-page-content">
