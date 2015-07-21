@@ -710,7 +710,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 /*****************************************************************************/
 
 /*
- * Front Pages
+ * Front Page
  */
 .front-page-header {
   width: 100%;
@@ -1086,6 +1086,13 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
  
  .header-panel-image img {
 	 border-radius:5px;
+ }
+ 
+ .programs-accordion-section {
+   background-color: white;
+   padding: 15px;
+   margin-bottom: 15px;
+   border-radius: 5px;
  }
  
 /*****************************************************************************/
