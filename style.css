@@ -1062,6 +1062,18 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	display:block;	
 }
 
+.no-bottom-margin p{
+	margin-bottom:10px;
+}
+
+.bullet p {
+	text-align:center;
+	margin-top:25px;
+	color:#B0182F;
+	font-style:italic;
+	font-size:1.5em;
+}
+
 /*****************************************************************************/
 /*
  * Schedule Page
