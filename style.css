@@ -1026,6 +1026,19 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	text-align:center;
 }
 
+.facility-custom-page .layout-responsive-region-body h2{
+	text-align:center;
+	margin-top:10px;
+}
+
+.facility-custom-page .layout-responsive-region-body .emphasize {
+	background-color: lightgray;
+	padding:15px;
+	font-size:1.2em;
+	text-align:center;
+	border-radius:5px;
+}
+
 .facility-custom-page .layout-responsive-region-body .webform-client-form .webform-submit {
 	margin:auto;
 	display:block;	
