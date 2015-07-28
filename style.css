@@ -1137,6 +1137,21 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
    margin-bottom: 15px;
    border-radius: 5px;
  }
+
+.programs-accordion-section .ui-accordion-content a {
+	color:#B0182F;
+	text-decoration:underline;
+}
+
+/*****************************************************************************/
+/*
+ * Location Page
+ */
+.page-facility-location .pane-gym-location {
+	background:white;
+	border-radius:5px;
+	padding:15px;
+}
  
 /*****************************************************************************/
 
