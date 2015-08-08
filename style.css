@@ -1210,14 +1210,36 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-bottom:20px;
 }
  
-.node-type-knowledge-article .layout-responsive-region-body .field-name-field-summary {
+.node-type-knowledge-article .layout-responsive-region-body  .field-name-field-title-to-display {
+	padding:10px;
+	color:#B0182F;
+	border: 10px;
+	text-align:center;
+	margin-top: 10px;
+	width:95%;
+	font-size:24px;
+	line-height:39px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
 
+.node-type-knowledge-article .layout-responsive-region-body  .field-name-field-title-to-display p {
+	margin-bottom:0px;	 
+ }
+ 
+.node-type-knowledge-article .layout-responsive-region-body .field-name-field-summary {
+	font-family: Arial, Helvetica, sans-serif;
 	text-align:center;
 	margin-bottom:15px;
-	font-size:125%;
-	background-color:#efefef;
+	font-size:18px;
+	line-height:29px;
+	background-color:#FbF7D1;
 	padding:10px;
 	border-radius:5px;
+}
+
+.node-type-knowledge-article .layout-responsive-region-body .field-name-body {
+	font-size:14px;
+	line-height:23px;
 }
 
 .node-type-knowledge-article .layout-responsive-region-body .field-name-field-summary p{
@@ -1240,7 +1262,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	display:block;
 }
 
-.node-type-knowledge-article .layout-responsive-region-body h2 {
+.node-type-knowledge-article .layout-responsive-region-body .large-section-title {
 	/*padding:10px;
 	background:#B0182F;
 	border-radius:5px;
@@ -1251,6 +1273,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	background:#efefef;
 	text-align:center;
     margin-top: 25px;
+	margin-bottom:5px;
     color: #B0182F;
     font-style: italic;
     font-size: 1.5em;
@@ -1258,10 +1281,55 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	border-radius:5px;
 }
 
-.node-type-knowledge-article .layout-responsive-region-body h6 {
+.node-type-knowledge-article .layout-responsive-region-body .large-section-title p{
+	margin-bottom:0px;
+}
+
+.node-type-knowledge-article .layout-responsive-region-body .small-section-title {
+	
+    padding-right: 10px;
+    margin-top:25px;
+	font-size:105%;
+	text-shadow: 1px 1px 1px #EAF1EA; 
+	font-family: Myriad Pro,"Lucida Grande","Lucida Sans Unicode",Segoe UI,Helvetica,Arial,sans-serif;
+	color:#b0182F;
+}
+
+.node-type-knowledge-article .layout-responsive-region-body .small-section-title p{
+	margin-bottom:0px;
+}
+
+.node-type-knowledge-article .layout-responsive-region-body .caption {
 	color:#7a7a7a;
 	font-style:italic;
 	text-align:center;
+}
+
+.node-type-knowledge-article .layout-responsive-region-body .highlight {
+	text-align:center;
+	background:#FbF7D1;
+	border-radius:5px;	
+	padding:5px;
+	margin-bottom:15px;
+}
+
+.node-type-knowledge-article .layout-responsive-region-body .highlight p{
+	margin-bottom:0px;
+}
+
+.node-type-knowledge-article .layout-responsive-region-body .emphasize {
+	text-align:center;
+	background:#FbF7D1;
+	border-radius:5px;	
+	padding:15px;
+	margin-bottom:15px;
+	font-size:18px;
+	line-height:34px;
+	font-style:italic;
+}
+
+.node-type-knowledge-article .layout-responsive-region-body .emphasize p{
+	margin-bottom:0px;
 }
 
 .node-type-knowledge-article .layout-responsive-region-body p{
@@ -1327,6 +1395,8 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	 margin-bottom:10px!important;
 	 position:relative;
  }
+
+
 /*****************************************************************************/
 
  
@@ -1409,16 +1479,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	text-align:center;
 }
 
-.field-name-field-title-to-display {
-	padding:10px;
-	color:#B0182F;
-	border: 10px;
-	text-align:center;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	width:95%;
-	font-size:24px;
-}
+
 
 .workout-agilityteaser {
 	background:#E8E8E8;
