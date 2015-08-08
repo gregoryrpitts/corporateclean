@@ -1,13 +1,13 @@
 <section id="knowledge-header">
     <div class="knowledge-header">
         <h1 style="display:block">
-            <img id="test" width="400" style="height:50" src="sites/default/files/images/San-Diego-Athletics-Logo-White.png" alt="Logo">
+            <img id="test" width="400" style="height:100" src="sites/default/files/images/San-Diego-Athletics-Logo-White.png" alt="Logo">
         </h1>           
     </div>
 </section>
 
 <!-- #content -->
-<div id="content" class="front-page-content">
+<div id="content" class="knowledge-main-page-content">
 
 	<!-- #content-inside -->
     <div id="content-inside" class="container_12 clearfix">
