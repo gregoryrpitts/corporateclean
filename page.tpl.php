@@ -89,11 +89,6 @@
             </div>
             <?php endif; ?>
      
-            <?php if ($page['help']): ?>
-            <div id="help">
-            <?php print render($page['help']); ?>
-            </div>
-            <?php endif; ?>
             
             <?php if ($action_links): ?>
             <ul class="action-links">
