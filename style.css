@@ -1472,6 +1472,31 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	float:right;
 } 
 
+.node-knowledge-series-page .field-name-field-title-to-display {
+	padding:10px;
+	color:#B0182F;
+	border: 10px;
+	text-align:center;
+	margin-top: 10px;
+	width:95%;
+	font-size:24px;
+	line-height:39px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.node-knowledge-series-page .field-name-field-title-to-display p{
+	margin-bottom:5px;
+}
+
+.node-knowledge-series-page .field-name-body {
+	font-size:14px;
+	line-height:23px;
+	text-align:center;
+}
+
+.node-knowledge-series-page .field-name-body p{
+	margin-bottom:25px;
+}
 
 
 
