@@ -55,7 +55,7 @@ blockquote { background:transparent url('images/blockquote.png') no-repeat top l
 */
 #header { clear:both; }
 
-#header-inside { margin: 0 auto; padding:40px 0; overflow:hidden; } 
+#header-inside { margin: 0 auto; padding:0px 0; overflow:hidden; } 
 
 #header-menu { clear:both; }
 
@@ -93,7 +93,7 @@ blockquote { background:transparent url('images/blockquote.png') no-repeat top l
 
 .footer-area.third { }
 
-.node.node-teaser { margin-bottom:60px; }
+.node.node-teaser { }
 
 #footer-bottom { clear:both; overflow:hidden; padding:40px 0; }
 
@@ -591,6 +591,10 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	text-align:center!important;
 }
 
+#header-inside-right ul.menu li {
+	float:none;
+	display:inline;
+}
 
 /*****************************************************************************/
 /*****************************************************************************/
@@ -602,7 +606,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
  * Block Search
  */
 #header #block-search-form {
-	margin-top:35px;
+	margin-top:55px;
 }
 
 /*
@@ -1198,6 +1202,12 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
     line-height: 0;
 }
 
+.page-knowledge .pane-title {
+	border-bottom: 3px #B0182F solid;
+	border-radius:5px;
+	margin-top:0px;	
+}
+
 /*****************************************************************************/
 /*
  * Knowledge Article...
@@ -1386,10 +1396,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 .node-knowledge-article.node-teaser h2:hover{
 	 background:rgba(108,50,34,0.6);
 }
- 
-.relative-node-teaser {
-	 position:relative;
-}
+
 
 .views-responsive-grid .node-knowledge-article.node-teaser {
 	 margin-bottom:10px!important;
@@ -1397,13 +1404,73 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
  }
 
 
+ /*
+.relative-node-teaser {
+	 position:relative;
+}
+*/
 /*****************************************************************************/
-
+/*
+ * Series Page
+ */
  
+.node-knowledge-series-page.node-teaser {
+	 margin-bottom:10px;
+	 position:relative;
+ }
 
- 
+.node-knowledge-series-page.node-teaser a{
+	color:#FFFFFF; 
+}
 
+.node-knowledge-series-page.node-teaser h2{
+	 position:absolute;
+	 z-index:100;
+	 margin:0px;
+	 padding-top:15px;
+	 padding-bottom:15px;
+	 bottom:1px;
+	 vertical-align: bottom;
+	 background: rgba(0,0,0,0.5);
+     width: 100%;
+     text-align: center;
+	 border-radius:5px;
+ }
  
+.node-knowledge-series-page.node-teaser img {
+       border:1px black solid;
+       border-radius:5px; 
+	   padding:0px;
+	   margin-bottom:0px;
+}
+
+.node-knowledge-series-page.node-teaser h2:hover{
+	 background:rgba(108,50,34,0.6);
+}
+
+.views-responsive-grid .node-knowledge-series-page.node-teaser {
+	 margin-bottom:10px!important;
+	 position:relative;
+}
+ 
+.node-knowledge-series-page.view-mode-full {
+	background:white;
+	padding:10px;
+	border-radius:5px;
+	margin-bottom:10px;
+}
+
+.field-name-all-articles-in-this-series-view {
+	text-align:center;
+} 
+ 
+.node-type-knowledge-article .field-name-all-articles-in-this-series-view .views-column-2 {
+	float:right;
+} 
+ 
+ .node-type-knowledge-series-page .field-name-all-articles-in-this-series-view .views-column-2 {
+	float:right;
+} 
 
 
 
