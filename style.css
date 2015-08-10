@@ -1208,6 +1208,10 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-top:0px;	
 }
 
+.page-knowledge .more-link {
+	clear:both;
+}
+
 /*****************************************************************************/
 /*
  * Knowledge Article...
@@ -1498,6 +1502,69 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-bottom:25px;
 }
 
+/*
+ * Knowledge Series Page.
+ */
+.page-knowledge-series .field-name-field-title-to-display {
+	padding:0px 10px;
+	color:#B0182F;
+	text-align:center;
+	margin-top: 10px;
+	width:95%;
+	font-size:20px;
+	line-height:35px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.page-knowledge-series .field-name-body {
+	font-size:14px;
+	line-height:23px;
+	text-align:center;
+}
+
+.page-knowledge-series .field-name-body p {
+	margin-bottom:15px;
+}
+
+.page-knowledge-series .field-name-field-title-to-display p{
+	margin-bottom:0px;
+}
+
+.page-knowledge-series  .field-name-field-front-page-preview-image img {
+	padding:0px;
+	border-radius:5px;
+	border:1px black solid;
+}
+
+.page-knowledge-series .layout-responsive-region-body {
+	background:white;
+	padding:10px;
+	border-radius:5px;
+}
+
+.page-knowledge-series .field-name-field-link-to-view {
+	text-align:center;
+}
+
+.page-knowledge-series .layout-responsive-region-sidebar_a {
+	padding:15px;
+	background:white;
+	border-radius:5px;
+}
+
+.page-knowledge-series .layout-responsive-region-sidebar_a .view-header {
+	border-radius:5px;
+	border: 10px;
+	color:#B0182F;
+	text-align:center;
+	font-size:24px;
+	padding:10px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
 
 
 .author-teaser {
@@ -1522,6 +1589,19 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-right:auto;
 }
 
+.highlight {
+	text-align:center;
+	background:#FbF7D1;
+	border-radius:5px;	
+	padding:5px;
+	margin-bottom:15px;
+	font-size:14px;
+	line-height:23px;
+}
+
+.highlight p {
+	margin-bottom:0px;
+}
 
 
 /*****************************************************************************/
