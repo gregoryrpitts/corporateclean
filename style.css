@@ -670,7 +670,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	position:relative;
 	background:#FFFFFF;
 	border-radius:5px;
-
+	box-shadow: 0 2px 6px #efefef inset;
 }
 
 .square-block img {
@@ -678,12 +678,13 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	padding:0px;
 	border:0px;
 	width:100%;
-	padding-top:10px;
+	padding-top:0px;
 	padding-bottom:5px;
 	border-radius:10px;
 }
 
 .square-block h2 {
+	/*
 	 position:absolute;
 	 z-index:100;
 	 margin:0px;
@@ -696,10 +697,20 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
      text-align: center;
 	 border-radius:5px;
 	 color:#FDFDFD
+	 */
+	padding:10px 0 0 0;
+	color:#B0182F;
+	border-radius:5px;
+	text-align:center;
+	font-size:20px;
+	line-height:35px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	margin-bottom:0px;
+	margin-top:0px;
 }
 
 .square-block a {
-	 color:#FDFDFD;
+/*	 color:#FDFDFD; */
 	 width:100%;
 }
 
@@ -1675,6 +1686,130 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	box-shadow: 0 2px 6px #efefef inset;
 }
 
+.workout .field-name-field-title-to-display {
+	padding:10px 0 0 0;
+	color:#B0182F;
+	border-radius:5px;
+	text-align:center;
+	font-size:20px;
+	line-height:35px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	margin-bottom:20px;
+}
+
+.view-archive {
+	padding:10px;
+	background:#FDFDFD;
+	border-radius:5px;
+	margin-bottom:20px;
+	margin-top:20px;
+	box-shadow: 0 2px 6px #efefef inset;
+}
+
+.view-archive .view-header {
+	padding:0px 0 0 0;
+	color:#B0182F;
+	border-radius:5px;
+	text-align:center;
+	font-size:20px;
+	line-height:35px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.view-archive .view-header p {
+	margin-bottom:0px;
+}
+
+.view-recent-knowledge-articles.view-display-id-block_2 .view-header {
+	padding:0px 0 0 0;
+	color:#B0182F;
+	border-radius:5px;
+	text-align:center;
+	font-size:20px;
+	line-height:35px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.view-recent-knowledge-articles.view-display-id-block_2 {
+	padding:10px;
+	background:#FDFDFD;
+	border-radius:5px;
+	margin-bottom:20px;
+	margin-top:20px;
+	box-shadow: 0 2px 6px #efefef inset;
+}
+
+.view-recent-knowledge-articles.view-display-id-block_2 .view-header p {
+	margin-bottom:10px;
+}
+
+.view-workout-log .view-header {
+	text-align:center;
+	border-radius:5px;	
+	padding:15px;
+	margin-bottom:15px;
+	font-size:18px;
+	line-height:34px;
+	font-style:italic;
+}
+
+.view-workout-log .view-header p {
+	margin-bottom:0px;
+}
+
+.workout-agilityteaser .field-label {
+	padding:0px 0 0 0;
+	color:#B0182F;
+	border-radius:5px;
+	text-align:center;
+	font-size:20px;
+	font-weight:normal;
+	line-height:35px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.workout-fullworkout .field-label {
+	padding:0px 0 0 0;
+	color:#B0182F;
+	border-radius:5px;
+	text-align:center;
+	font-size:20px;
+	font-weight:normal;
+	line-height:35px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.workout-subworkout .field-label {
+	padding:0px 0 0 0;
+	color:#B0182F;
+	border-radius:5px;
+	text-align:center;
+	font-size:20px;
+	font-weight:normal;
+	line-height:35px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .node.node-warmup-agility-session.node-teaser { 
 	margin-bottom:5px; 
 }
@@ -1687,6 +1822,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	font-size:24px;
 	padding:10px;
 }
+
 
 
 .page-archive- h1 {
@@ -1721,15 +1857,6 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-bottom:10px;	
 }
 
-.workout-agilityteaser .field-label {
-	padding:10px;
-	background:#B0182F;
-	border-radius:5px;
-	border: 10px;
-	color:#FFFFFF;
-	text-align:center;
-	margin-bottom: 10px;
-}
 
 .workout-agilityteaser.grid_7 {
 	margin-left:0px;
@@ -1748,15 +1875,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-bottom:10px;
 }
 
-.workout-fullworkout .field-label {
-	padding:10px;
-	background:#B0182F;
-	border-radius:5px;
-	border: 10px;
-	color:#FFFFFF;
-	text-align:center;
-	margin-bottom: 10px;
-}
+
 
 .workout-subworkout {
 	background:#E8E8E8;
@@ -1765,15 +1884,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
     	margin-bottom:10px;
 }
 
-.workout-subworkout .field-label {
-	padding:10px;
-	background:#B0182F;
-	border-radius:5px;
-	border: 10px;
-	color:#FFFFFF;
-	text-align:center;
-	margin-bottom: 10px;
-}
+
 
 .workout-subworkout.grid_3_5 {
 	margin-left:0px;
