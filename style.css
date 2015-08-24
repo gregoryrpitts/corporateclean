@@ -1696,6 +1696,17 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	border-radius:5px;
 }
 
+/*
+ * Sharebar!
+ */
+ 
+body ul#sharebarp {
+	border-radius:5px;
+}
+
+
+
+
 /*****************************************************************************/
 
 .workout {
@@ -1910,6 +1921,3 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-right:20px;
 }
 
-/*
- * Front Page
- */
