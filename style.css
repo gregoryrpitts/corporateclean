@@ -1003,15 +1003,14 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 }
 
 .page-facility .facility-page-read-more {
-	background: #B0182F;
-	border-radius: 5px;
-	float:left;
+	float:none;
 	padding:5px;
 	margin-top:5px;
 }
 
 .page-facility .facility-page-read-more a{
-	color:#FDFDFD;
+	color:#B0182F;
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
 /*
@@ -1678,6 +1677,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 .custom-p p{
 	font-size:14px;
 	line-height:23px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
 .custom-h2 p {
