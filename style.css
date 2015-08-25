@@ -1069,7 +1069,8 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 .facility-custom-page .layout-responsive-region-body .emphasis p{
 	background-color: #e8e8e8;
 	padding:15px;
-	font-size:1.2em;
+	line-height:26px;
+	font-size:15px;
 	text-align:center;
 	border-radius:5px;
 	font-style:italic;
@@ -1082,7 +1083,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
     font-weight: 300;
     font-style: normal;
     font-size: 24px;
-    line-height: 1.2;
+    line-height: 35px;
     color: rgba(0,0,0,0.44);
 	text-align:center;
 }
@@ -1717,6 +1718,12 @@ a:focus {
 }
 
 .custom-p p{
+	font-size:14px;
+	line-height:23px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.custom-p li{
 	font-size:14px;
 	line-height:23px;
     font-family: Georgia, Times, 'Times New Roman', serif;
