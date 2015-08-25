@@ -670,7 +670,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	position:relative;
 	background:#FFFFFF;
 	border-radius:5px;
-	box-shadow: 0 2px 6px #efefef inset;
+	margin-bottom:20px;
 }
 
 .square-block img {
@@ -907,7 +907,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	text-shadow: 0 1px 1px #003547;
 }
 
-.front-page-constant-contact #edit-submit--2 {
+.constant-contact-block .form-submit {
 	color:#B0182f;
 	background:white;
 	border-radius:5px;
@@ -927,10 +927,17 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
     box-shadow: 0 0 10px black;
 }
 
-.front-page-constant-contact #edit-submit--2:focus {
+.front-page-constant-contact .form-submit:focus {
     outline: none !important;
     border-color: #000000;
     box-shadow: 0 0 10px black;
+}
+
+.front-page-constant-contact .form-submit:hover {
+    outline: none !important;
+    border-color: #000000;
+    box-shadow: 0 0 10px black;
+	background:white;
 }
 
 .front-page-footer {
@@ -1028,6 +1035,15 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	padding:15px;
 	border-radius:5px;
 	margin-bottom:10px;
+	box-shadow: 0 2px 6px #efefef inset;
+}
+
+.facility-custom-page .layout-responsive-region-body .field-name-field-summary {
+	background:white;
+	padding:15px;
+	border-radius:5px;
+	margin-bottom:10px;
+	box-shadow: 0 2px 6px #efefef inset;
 }
 
 .facility-custom-page .layout-responsive-region-body .webform-client-form {
@@ -1095,19 +1111,19 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 
 .class-schedule-full {
 	background:white;
-	box-shadow: 0 2px 6px #efefef inset;
 	border-radius:5px;
 	padding-left:10px;
 	padding-top:10px;
 	padding-right:10px;
  }
  
- .schedule-page .region-content {
-	 background-color:white;
-	 border-radius:5px;
-	 padding-bottom:15px;
-	 padding-top:15px;
- }
+.schedule-page .region-content {
+	background-color:white;
+	border-radius:5px;
+	padding-bottom:15px;
+	padding-top:15px;
+	box-shadow: 0 2px 6px #efefef inset;
+}
 
 /*****************************************************************************/
 /*
@@ -1145,12 +1161,13 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	 border-radius:5px;
  }
  
- .programs-accordion-section {
-   background-color: white;
-   padding: 15px;
-   margin-bottom: 15px;
-   border-radius: 5px;
- }
+.programs-accordion-section {
+   	background-color: white;
+   	padding: 15px;
+   	margin-bottom: 15px;
+   	border-radius: 5px;
+	box-shadow: 0 2px 6px #efefef inset;
+}
 
 .programs-accordion-section .ui-accordion-content a {
 	color:#B0182F;
@@ -1165,6 +1182,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	background:white;
 	border-radius:5px;
 	padding:15px;
+	box-shadow: 0 2px 6px #efefef inset;
 }
 
 /*****************************************************************************/
@@ -1660,6 +1678,30 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
  * General
  */
 
+input.form-text:focus { 
+    outline: none !important;
+    border-color: #000000;
+    box-shadow: 0 0 10px black;
+}
+
+textarea.form-textarea:focus { 
+    outline: none !important;
+    border-color: #000000;
+    box-shadow: 0 0 10px black;
+}
+
+input.webform-submit:focus {
+	outline: none !important;
+    border-color: #000000;
+    box-shadow: 0 0 10px black;
+}
+
+a:focus {
+	outline: none !important;
+    border-color: #000000;
+    box-shadow: 0 0 10px black;
+}
+
 .highlight {
 	text-align:center;
 	background:#FbF7D1;
@@ -1696,12 +1738,20 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	border-radius:5px;
 }
 
+.layout-responsive-region-sidebar_a {
+	padding:15px;
+	background:white;
+	border-radius:5px;
+	box-shadow: 0 2px 6px #efefef inset;
+}
+
 /*
  * Sharebar!
  */
  
 body ul#sharebarp {
 	border-radius:5px;
+	position:absolute;
 }
 
 
@@ -1758,8 +1808,6 @@ body ul#sharebarp {
 	background:#FDFDFD;
 	border-radius:5px;
 	margin-bottom:20px;
-	margin-top:20px;
-	box-shadow: 0 2px 6px #efefef inset;
 }
 
 .sidebar-of-teasers .view-header p {

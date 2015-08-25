@@ -6,7 +6,7 @@
         <div id="header-inside-left" class="grid_8">
             
             <?php if ($logo): ?>
-            <a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
+            <a href="<?php print check_url($front_page); ?>facility" title="<?php print t('Home'); ?>"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
             <?php endif; ?>
      
             <?php if ($site_name || $site_slogan): ?>
