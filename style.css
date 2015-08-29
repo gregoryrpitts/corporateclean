@@ -762,6 +762,19 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
   	animation: fadein 3s;
 }
 
+.front-page-clone-content {
+	z-index:999;
+	position:relative;
+	background:#e7e7e7!important;
+	
+	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  	-moz-animation: fadein 3s; /* Firefox < 16 */
+  	-ms-animation: fadein 3s; /* Internet Explorer */
+  	-o-animation: fadein 3s; /* Opera < 12.1 */
+  	animation: fadein 3s;
+}
+
+
 .front-page-header .front-page-getting-started-button {
 	background-color:#B0182F;
 	width:200px;
@@ -1759,9 +1772,14 @@ a:focus {
 }
 
 .white-box {
-	background:#e7e7e7;
-	padding:10px;
+	background-color:white;
 	border-radius:5px;
+	padding:10px;
+    box-shadow: 0 2px 6px #efefef inset;
+}
+
+.custom-margin-top {
+    margin-top:10px;
 }
 
 .layout-responsive-region-sidebar_a {
