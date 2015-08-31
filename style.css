@@ -31,8 +31,14 @@ a img { border:none; outline: none; display:block; overflow:hidden; }
 
 img.masked, .field-type-image img { background:transparent url('images/pattern.png'); border:1px solid #d8d8d8; padding:10px; margin:10px 0; }
 
-img { max-width: 100%; height: auto; 
--webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+img { 
+    max-width: 100%; 
+    height: auto; 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+    border-radius:5px;
+}
 
 code { font-family: "Courier New", Courier, monospace; }
 
@@ -1769,6 +1775,17 @@ a:focus {
 	font-size:20px;
 	line-height:35px;
 	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.super-emphasis p{
+	font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+    letter-spacing: -0.02em;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: rgba(0,0,0,0.44);
+	text-align:center;
 }
 
 .white-box {
