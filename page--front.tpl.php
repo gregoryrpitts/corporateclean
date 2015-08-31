@@ -46,7 +46,7 @@
 </div><!-- EOF: #header-menu -->
 
 <!-- #content -->
-<div id="content" class="front-page-content">
+<div id="content" class="front-page-clone-content">
 
 	<!-- #content-inside -->
     <div id="content-inside" class="container_12 clearfix">
