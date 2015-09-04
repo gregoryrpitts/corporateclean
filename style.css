@@ -604,6 +604,41 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 
 /*****************************************************************************/
 /*****************************************************************************/
+/* General */
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+.field-name-field-title-to-display {
+	padding:10px;
+	color:#B0182F;
+	border: 10px;
+	text-align:center;
+	margin-top: 10px;
+	width:95%;
+	font-size:24px;
+	line-height:39px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.field-name-field-summary {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin-bottom:15px;
+	font-size:18px;
+	line-height:29px;
+	background-color:#FbF7D1;
+	padding:10px;
+	border-radius:5px;
+}
+
+.field-name-field-summary p {
+	margin-bottom:5px;
+}
+
+
+/*****************************************************************************/
+/*****************************************************************************/
 /* Blocks */
 /*****************************************************************************/
 /*****************************************************************************/
@@ -1271,43 +1306,17 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	border-radius:5px;
 	margin-bottom:20px;
 }
- 
-.node-type-knowledge-article .layout-responsive-region-body  .field-name-field-title-to-display {
-	padding:10px;
-	color:#B0182F;
-	border: 10px;
-	text-align:center;
-	margin-top: 10px;
-	width:95%;
-	font-size:24px;
-	line-height:39px;
-	font-family: Georgia, Times, 'Times New Roman', serif;
-}
 
 .node-type-knowledge-article .layout-responsive-region-body  .field-name-field-title-to-display p {
 	margin-bottom:0px;	 
  }
- 
-.node-type-knowledge-article .layout-responsive-region-body .field-name-field-summary {
-	font-family: Arial, Helvetica, sans-serif;
-	text-align:center;
-	margin-bottom:15px;
-	font-size:18px;
-	line-height:29px;
-	background-color:#FbF7D1;
-	padding:10px;
-	border-radius:5px;
-}
 
 .node-type-knowledge-article .layout-responsive-region-body .field-name-body {
 	font-size:14px;
 	line-height:23px;
 }
 
-.node-type-knowledge-article .layout-responsive-region-body .field-name-field-summary p{
-	margin-bottom:5px;
-}
- 
+
 .node-type-knowledge-article .layout-responsive-region-body img{
 	max-width:90%;
 	border:1px black solid;
@@ -1524,18 +1533,6 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	float:right;
 } 
 
-.node-knowledge-series-page .field-name-field-title-to-display {
-	padding:10px;
-	color:#B0182F;
-	border: 10px;
-	text-align:center;
-	margin-top: 10px;
-	width:95%;
-	font-size:24px;
-	line-height:39px;
-	font-family: Georgia, Times, 'Times New Roman', serif;
-}
-
 .node-knowledge-series-page .field-name-field-title-to-display p{
 	margin-bottom:5px;
 }
@@ -1717,6 +1714,12 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	box-shadow: 0 2px 6px #efefef inset;
 }
 
+.white-box {
+	background-color:white;
+	border-radius:5px;
+	padding:10px;
+}
+
 input.form-text:focus { 
     outline: none !important;
     border-color: #000000;
@@ -1788,12 +1791,7 @@ a:focus {
 	text-align:center;
 }
 
-.white-box {
-	background-color:white;
-	border-radius:5px;
-	padding:10px;
-    box-shadow: 0 2px 6px #efefef inset;
-}
+
 
 .custom-margin-top {
     margin-top:10px;
