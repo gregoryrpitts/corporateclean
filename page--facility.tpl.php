@@ -6,7 +6,10 @@
         <div id="header-inside-left" class="grid_8">
             
             <?php if ($logo): ?>
-            <a href="<?php print check_url($front_page); ?>facility" title="<?php print t('Home'); ?>"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
+                <a href="<?php print check_url($front_page); ?>facility" title="<?php print t('San Diego Athletics'); ?>">
+                    <img src="<?php print $logo; ?>" alt="<?php print t('San Diego Athletics Logo'); ?>" style="display:inline"/>
+                    <img src="/sites/default/files/images/San-Diego-Athletics-Name-White.png" alt="<?php print t('San Diego Athletics Logo'); ?>" style="display:inline;width:200px;padding-bottom:15px;" />
+                </a>
             <?php endif; ?>
      
             <?php if ($site_name || $site_slogan): ?>
