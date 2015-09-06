@@ -23,7 +23,11 @@ input, textarea, select { font-family: "Lucida Grande","Lucida Sans Unicode",Seg
 #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6,
 #footer-bottom h1, #footer-bottom h2, #footer-bottom h3, #footer-bottom h4, #footer-bottom h5, #footer-bottom h6 { text-shadow:none; }
 
-p { margin:0 0 25px 0; }
+p { 	
+	margin:0 0 25px 0; 
+	font-size:14px;
+	line-height:23px;
+}
 
 a, li a.active { text-decoration:none; }
 
@@ -1275,6 +1279,77 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 
 /*****************************************************************************/
 /*
+ * Help Article...
+ */
+ 
+ .node-type-help-article .field-name-body h1, h2, h3, h4, h5, h6 {
+	margin-bottom:5px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+ }
+  
+ .node-type-help-article .field-name-body h1 {
+	font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+    letter-spacing: -0.02em;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: rgba(0,0,0,0.44);
+	text-align:center;
+	margin-bottom:25px;
+}
+
+.node-type-help-article .field-name-body h3 {
+	font-size:16px;
+	font-weight:normal;
+}
+
+.node-type-help-article .field-name-body h4 {
+	font-size:14px;
+	line-height:23px;
+	font-weight:normal;
+	color:red;
+	text-align:center;
+}
+
+.node-type-help-article .field-name-body h5 {
+	background-color: #e8e8e8;
+	padding-top:10px;
+	padding-bottom:10px;
+	line-height:27px;
+	font-weight:normal;
+	font-size:16px;
+	text-align:center;
+	border-radius:5px;
+	margin-bottom:5px;
+	max-width:90%;
+	margin-right:auto;
+	margin-left:auto;
+}
+  
+.node-type-help-article .field-name-body h6 {
+	text-align:center;
+	background:#FbF7D1;
+	border-radius:5px;
+	padding:5px;
+	margin-bottom:15px;
+	font-size:16px;
+	line-height:27px;
+	color:#7a7a7a;
+	font-weight:normal;
+}
+
+.node-type-help-article .layout-responsive-region-body img{
+	max-width:90%;
+	border:1px black solid;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
+
+/*****************************************************************************/
+/*
  * Knowledge Article...
  */
  
@@ -1410,10 +1485,6 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	font-style:italic;
 	text-align:center;
 }
-
-
-
-
 
 .node-type-knowledge-article .layout-responsive-region-body p{
 	margin-left: 10px;
