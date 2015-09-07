@@ -721,60 +721,6 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
   border-radius: 50% !important;
 }
 
-/*
- * Square Block
- */
-.square-block {
-	position:relative;
-	background:#FFFFFF;
-	border-radius:5px;
-	margin-bottom:20px;
-}
-
-.square-block img {
-	border-radius:5px;
-	padding:0px;
-	border:0px;
-	width:100%;
-	padding-top:0px;
-	padding-bottom:5px;
-	border-radius:10px;
-}
-
-.square-block h2 {
-	/*
-	 position:absolute;
-	 z-index:100;
-	 margin:0px;
-	 padding-top:15px!important;
-	 padding-bottom:15px!important;
-	 bottom:5px;
-	 vertical-align: bottom;
-	 background: rgba(0,0,0,0.5);
-	 width:100%;
-     text-align: center;
-	 border-radius:5px;
-	 color:#FDFDFD
-	 */
-	padding:10px 0 0 0;
-	color:#B0182F;
-	border-radius:5px;
-	text-align:center;
-	font-size:20px;
-	line-height:35px;
-	font-family: Georgia, Times, 'Times New Roman', serif;
-	margin-bottom:0px;
-	margin-top:0px;
-}
-
-.square-block a {
-/*	 color:#FDFDFD; */
-	 width:100%;
-}
-
-.square-block p {
-	margin-bottom:0px;
-}
 
 /*****************************************************************************/
 /*****************************************************************************/
@@ -857,10 +803,6 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
-.pane-front-page-workouts {
-	margin-top:15px;
-	margin-bottom:15px;
-}
 
 .front-page-mini-panel-left {
 	-webkit-transition: -webkit-transform 0.5s;
@@ -1939,25 +1881,7 @@ body ul#sharebarp {
 
 /*****************************************************************************/
 
-.workout {
-	padding:10px;
-	background:#FDFDFD;
-	border-radius:5px;
-	margin-bottom:20px!important;
-	box-shadow: 0 2px 6px #efefef inset;
-	border:1px solid #B0182F;
-}
 
-.workout .field-name-field-title-to-display {
-	padding:10px 0 0 0;
-	color:#B0182F;
-	border-radius:5px;
-	text-align:center;
-	font-size:24px;
-	line-height:39px;
-	font-family: Georgia, Times, 'Times New Roman', serif;
-	margin-bottom:20px;
-}
 
 .view-archive .view-header {
 	padding:0px 0 0 0;
@@ -1973,26 +1897,96 @@ body ul#sharebarp {
 	margin-bottom:0px;
 }
 
-.sidebar-of-teasers .view-header {
-	padding:0px 0 0 0;
+
+/*****************************************************************************/
+/*****************************************************************************/
+/* sidebar-of-teasers */
+/*****************************************************************************/
+/*****************************************************************************/
+
+.sidebar-of-teasers .view-header p{ 
+	padding:0px;
 	color:#B0182F;
-	border-radius:5px;
 	text-align:center;
 	font-size:20px;
 	line-height:35px;
 	font-family: Georgia, Times, 'Times New Roman', serif;
+	margin-bottom:0px;
 }
 
 .sidebar-of-teasers {
+	margin-bottom:50px;
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+/* square-block */
+/*****************************************************************************/
+/*****************************************************************************/
+
+.square-block img {
+	border-radius:5px;
+	padding:0px;
+	border:0px;
+	width:100%;
+	padding-top:0px;
+	padding-bottom:5px;
+	border-radius:10px;
+}
+
+.square-block h2 {
+	padding:0px;
+	color:#B0182F;
+	text-align:center;
+	font-size:20px;
+	line-height:35px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	margin-bottom:0px;
+}
+
+.square-block a {
+	 width:100%;
+}
+
+.square-block p {
+	margin-bottom:0px;
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+/* workouts */
+/*****************************************************************************/
+/*****************************************************************************/
+
+.node-single-workout .field-name-field-title-to-display p{
+	padding:0px;
+	color:#B0182F;
+	border: 10px;
+	text-align:center;
+	margin: 0px;
+	width:95%;
+	font-size:24px!important;
+	line-height:39px!important;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.pane-front-page-workouts {
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.workout {
 	padding:10px;
 	background:#FDFDFD;
 	border-radius:5px;
-	margin-bottom:20px;
+	margin-bottom:20px!important;
+	box-shadow: 0 2px 6px #efefef inset;
+	border:1px solid #B0182F;
 }
 
-.sidebar-of-teasers .view-header p {
-	margin-bottom:10px;
-}
+
 
 .view-workout-log.view-header {
 	padding:10px;
@@ -2055,24 +2049,6 @@ body ul#sharebarp {
 	margin-right:10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .node.node-warmup-agility-session.node-teaser { 
 	margin-bottom:5px; 
 }
@@ -2085,8 +2061,6 @@ body ul#sharebarp {
 	font-size:24px;
 	padding:10px;
 }
-
-
 
 .page-archive- h1 {
 	border-radius:5px;
@@ -2111,15 +2085,12 @@ body ul#sharebarp {
 	text-align:center;
 }
 
-
-
 .workout-agilityteaser {
 	background:#E8E8E8;
 	border-radius: 5px;
 	padding:20px;
 	margin-bottom:10px;	
 }
-
 
 .workout-agilityteaser.grid_7 {
 	margin-left:0px;
@@ -2137,12 +2108,6 @@ body ul#sharebarp {
 	padding:20px;
 	margin-bottom:10px;
 }
-
-
-
-
-
-
 
 .workout-subworkout.grid_3_5 {
 	margin-left:0px;
