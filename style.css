@@ -1304,9 +1304,10 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 }
 
 /*****************************************************************************/
-/*
- * Knowledge Article...
- */
+/*****************************************************************************/
+/* Knowledge Article */
+/*****************************************************************************/
+/*****************************************************************************/
  
  .node-type-knowledge-article .field-name-body h1, h2, h3, h4, h5, h6 {
 	margin-bottom:5px;
@@ -1459,6 +1460,10 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-bottom:20px;
 }
 
+/*****************************************************************************/
+/* Knowledge Article Teaser*/
+/*****************************************************************************/
+
 .node-knowledge-article.node-teaser {
 	 margin-bottom:10px;
 	 position:relative;
@@ -1497,13 +1502,42 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	 position:relative;
  }
 
-
- /*
-.relative-node-teaser {
-	 position:relative;
-}
-*/
 /*****************************************************************************/
+/* Knowledge Article Mini Teaser*/
+/*****************************************************************************/
+
+.node-knowledge-article.view-mode-mini_teaser img {
+    width:25%;
+    border:0px;
+    float:left;
+    padding:0;
+    margin-right:5px;
+}
+
+.node-knowledge-article.view-mode-mini_teaser p {
+    padding: 0px 0 0 0;
+    color: #B0182F;
+    text-align: left;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin-bottom:5px;
+}
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /*****************************************************************************/
 /*
  * Series Page
  */
@@ -1710,6 +1744,11 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 .node-type-author-page .view-other-articles-by-author .view-header h2 {
 	margin-bottom:0px;
 }
+
+.node-type-author-page .view-other-articles-by-author .views-row {
+    border-top:1px solid #B0182F;
+}
+
 
 /*****************************************************************************/
 /*****************************************************************************/
