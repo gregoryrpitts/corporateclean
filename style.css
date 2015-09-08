@@ -1648,9 +1648,8 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 /*****************************************************************************/
 
 .author-teaser {
-	padding:10px;
-	background:#FFFFFF;
-	border-radius:5px;
+    border-top: 10px solid #EFEFEF;
+    border-radius:0px;
 }
 
 .author-teaser-title {
@@ -1668,32 +1667,25 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
     text-align:right;
 }
 
-
-
-
-
-
-
-
-
-.round-image img{
-	border-radius:50%;
-	max-width:90%;
-	margin-left:auto;
-	margin-right:auto;
+.node-type-author-page .layout-responsive-region-body {
+	padding:15px;
+	background:white;
+	border-radius:5px;
+	box-shadow: 0 2px 6px #efefef inset; 
 }
 
-.node-type-author-page .field-name-field-author-image img {
-	padding:0px;
-	border-radius:5px;
-	border:1px black solid;
+.node-type-author-page .layout-responsive-region-body img {
+    border: 1px black solid;
+}
+
+.node-type-author-page .field-name-articles-by-current-author {
+    border-top: 10px solid #EFEFEF;
+    border-radius:0px;
 }
 
 .node-type-author-page .field-name-field-author-page-name {
 	padding:10px 0 0 0;
-	border-bottom: 3px #B0182F solid;
 	color:#B0182F;
-	border-radius:5px;
 	text-align:center;
 	font-size:20px;
 	line-height:35px;
@@ -1701,23 +1693,13 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-bottom:20px;
 }
 
-.node-type-author-page .panel-display {
-	background:white;
-	padding:10px;
-	border-radius:5px;
-}
-
 .node-type-author-page .field-name-body {
-	font-size:14px;
-	line-height:23px;
 	text-align:center;
 }
 
 .node-type-author-page .view-other-articles-by-author .view-header {
 	padding:10px 0 0 0;
-	border-bottom: 3px #B0182F solid;
 	color:#B0182F;
-	border-radius:5px;
 	text-align:center;
 	font-size:20px;
 	line-height:35px;
@@ -1730,9 +1712,12 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 }
 
 /*****************************************************************************/
-/*
- * Taxonomy Term Page
- */
+/*****************************************************************************/
+/* Taxonomy Term Page */
+/*****************************************************************************/
+/*****************************************************************************/
+
+
 
 
 
@@ -1912,6 +1897,10 @@ body ul#sharebarp {
 /* sidebar-of-teasers */
 /*****************************************************************************/
 /*****************************************************************************/
+
+.first-sidebar-of-teasers .view-header p {
+    margin-top:25px;
+}
 
 .sidebar-of-teasers .view-header p{ 
 	padding:0px;
