@@ -775,45 +775,22 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
   	animation: fadein 3s;
 }
 
-.mission-statement {
-	color: #B0182F;
-    font: 2.2em  sans-serif;
-    padding-bottom: 0px;
-    padding-top: 0px;
-	text-align:center;
+.front-page-content .layout-responsive-region-sidebar_a {
+    margin-left:0px!important;
+}
+
+.front-page-headline {
+    margin-bottom:10px;
+}
+
+.front-page-headline p {
+    font-size:24px;
+    line-height:35px;
+    text-align:center;
+    margin-bottom:0px;
 	font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
-
-.front-page-mini-panel-left {
-	-webkit-transition: -webkit-transform 0.5s;
-	-moz-transition: -moz-transform 0.5s;
-	transition: transform 0.5s;
-}
-
-.front-page-mini-panel-left.front-page-mini-panel-title {
-	color:#7a7a7a;
-	margin-top:10px;
-	font: 2.0em  sans-serif;
-}
-
-.front-page-mini-panel-left.front-page-mini-panel-title p {
-	margin-bottom:2px;
-}
-
-.front-page-mini-panel-left.front-page-mini-panel-body {
-	color:#7a7a7a;
-	font: 1.2em  sans-serif;
-}
-
-.front-page-mini-panel-right p {
-	margin-bottom:0px;
-}
-
-.front-page-mini-panel-right img {
-	border-radius:5px;
-	margin-bottom:2px;
-}
 
 @keyframes fadein {
     from { opacity: 0; }
