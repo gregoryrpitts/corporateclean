@@ -1,10 +1,10 @@
 <section id="front-page-header">
     <div class="front-page-header">
         <h1 style="display:block">
-            <img id="test" width="400" src="sites/default/files/images/San-Diego-Athletics-Logo-White.png" alt="Logo">
+            <img id="San Diego Athletics Logo" width="300" src="http://www.sandiegoathletics.com/sites/default/files/images/San-Diego-Athletics-Logo-White.png" alt="San Diego Athletics | CrossFit Pacific Beach Logo">
         </h1>           
         <h1 id="test" style="display:block">
-            <img width="400" src="sites/default/files/images/San-Diego-Athletics-Name-White.png" alt="Logo">
+            <img width="300" src="http://www.sandiegoathletics.com/sites/default/files/images/San-Diego-Athletics-Name-White.png" alt="San Diego Athletics | CrossFit Pacific Beach Name">
         </h1>
         <p style="text-align:center; color:white">
             1019 Garnet Avenue
@@ -15,9 +15,11 @@
             </br>
             info@sandiegoathletics.com
             </p>
+            <a href="facility/getstarted">
                 <p class="front-page-getting-started-button">
-                    <a href="facility/getstarted">Get Started Now!</a>
+                    Get Started Now
                 </p>
+            </a>
     </div>
 </section>
 
@@ -46,7 +48,7 @@
 </div><!-- EOF: #header-menu -->
 
 <!-- #content -->
-<div id="content" class="front-page-clone-content">
+<div id="content" class="front-page-content">
 
 	<!-- #content-inside -->
     <div id="content-inside" class="container_12 clearfix">
