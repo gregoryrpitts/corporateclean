@@ -775,14 +775,24 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
   	animation: fadein 3s;
 }
 
+.front-page-content-title h2{
+    text-align:center;
+    margin-top:25px;
+    margin-bottom:5px;
+}
+
 .front-page-content .layout-responsive-region-sidebar_a {
     margin-left:0px!important;
 }
 
-.front-page-headline {
-    margin-bottom:10px;
+.front-page-content .white-shadowed-box {
+    padding-top:0px;
 }
 
+.front-page-headline {
+    margin-bottom:10px;
+    padding-top:10px!important;
+}
 .front-page-headline p {
     font-size:24px;
     line-height:35px;
