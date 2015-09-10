@@ -68,6 +68,30 @@ function corporateclean_preprocess_html(&$variables) {
 	drupal_add_css(path_to_theme() . '/css/ie.css', array('group' => CSS_THEME, 'browsers' => array('IE' => '(lte IE 8)&(!IEMobile)', '!IE' => FALSE), 'preprocess' => FALSE));
 }
 
+function corporateclean_preprocess_page(&$vars) {
+	if (isset($vars['node'])) {
+		 // Ref suggestions cuz it's stupid long.
+    	$suggests = &$vars['theme_hook_suggestions'];
+
+    	// Get path arguments.
+    	$args = arg();
+    	// Remove first argument of "node".
+    	unset($args[0]);
+
+    	// Set type.
+    	$type = "page__{$vars['node']->type}";
+
+    	// Bring it all together.
+    	$suggests = array_merge(
+      	$suggests,
+      	array($type),
+      	theme_get_suggestions($args, $type)
+    	);
+		
+	}	
+
+}
+
 /**
  * Override or insert variables into the html template.
  */
