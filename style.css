@@ -631,23 +631,6 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
-.field-name-field-summary {
-	font-family: Arial, Helvetica, sans-serif;
-	text-align:center;
-	margin-bottom:15px;
-	font-size:18px;
-	line-height:29px;
-	background-color:#FbF7D1;
-	padding:10px;
-	border-radius:5px;
-}
-
-.field-name-field-summary p {
-	margin-bottom:5px;
-	font-size:18px;
-	line-height:29px;
-}
-
 .block-quote {
 	margin-left:25px;
 	border-left: 5px #B0182F solid;
@@ -1374,6 +1357,23 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-left:auto;
 }
   
+.node-type-knowledge-article .field-name-field-summary {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin-bottom:15px;
+	font-size:18px;
+	line-height:29px;
+	background-color:#FbF7D1;
+	padding:10px;
+	border-radius:5px;
+}
+
+.node-type-knowledge-article .field-name-field-summary p {
+	margin-bottom:5px;
+	font-size:18px;
+	line-height:29px;
+}
+  
 .node-type-knowledge-article .field-name-body h6 {
 	text-align:center;
 	background:#FbF7D1;
@@ -1535,7 +1535,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
     margin-right:5px;
 }
 
-.node-knowledge-article.view-mode-mini_teaser p {
+.node-knowledge-article.view-mode-mini_teasegr p {
     padding: 0px 0 0 0;
     color: #B0182F;
     text-align: left;
@@ -1545,18 +1545,29 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
     margin-bottom:5px;
 }
 
+.node-knowledge-article.view-mode-mini_teaser .field-name-title h2{
+	margin-top:10px;
+}
 
+.node-single-workout .node-knowledge-article.view-mode-mini_teaser {
+	background:#E8E8E8;
+	border-radius: 5px;
+	padding:10px;
+    margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+	position:relative;
+}
 
+.node-single-workout .node-knowledge-article.view-mode-mini_teaser .field-name-title {
+    position:relative;
+}
 
-
-
-
- 
- 
- 
- 
- 
- 
+.node-single-workout .node-knowledge-article.view-mode-mini_teaser .field-name-field-topic-tag {
+    position:absolute;
+    bottom:5px;
+    right:5px;
+} 
  
  /*****************************************************************************/
 /*
