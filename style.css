@@ -833,7 +833,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 
 /*****************************************************************************/
 /*****************************************************************************/
-/* Constant Contact Block */
+/* Constant Contact Blocks */
 /*****************************************************************************/
 /*****************************************************************************/
 
@@ -926,6 +926,53 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
     box-shadow: 0 0 10px black;
 	background:white;
 }
+
+.field-name-cc-knowledge-article {
+	margin-top:50px;
+}
+
+.field-name-cc-knowledge-article h3 {
+	width: 75%;
+    text-align: center;
+    margin: auto;
+}
+
+.constant-contact-knowledge-article-block {
+	text-align:center;
+}
+
+.constant-contact-knowledge-article-block input.form-text {
+	background:#efefef;
+}
+
+.constant-contact-knowledge-article-block input.form-text:focus { 
+    outline: none !important;
+    border-color: #000000;
+    box-shadow: 0 0 10px black;
+}
+
+.constant-contact-knowledge-article-block .form-submit:focus {
+    outline: none !important;
+    border-color: #000000;
+    box-shadow: 0 0 10px black;
+}
+
+.constant-contact-knowledge-article-block .form-submit:hover {
+    outline: none !important;
+    border-color: #000000;
+    box-shadow: 0 0 10px black;
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+/*  */
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+
+
+
 
 .front-page-footer {
 	padding: 20px 0 20px 0!important;
