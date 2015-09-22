@@ -946,6 +946,18 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
     box-shadow: 0 0 10px black;
 }
 
+.constant-contact-sidebar-block {
+	text-align:center;
+	padding-top:25px;
+}
+
+.constant-contact-sidebar-block .constant-contact-block-heading p {
+	color:#b0182f;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size:14px;
+	line-height:23px;
+}
+
 /*****************************************************************************/
 /*****************************************************************************/
 /*  */
