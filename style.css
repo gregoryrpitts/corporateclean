@@ -1701,6 +1701,12 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-bottom:25px;
 }
 
+.series-summary-title {
+    text-align:center;
+    margin-top:10px;
+    font-size:18px;
+}
+
 /*****************************************************************************/
 /*****************************************************************************/
 /* Knowledge Series Page */
@@ -2002,7 +2008,6 @@ a:focus {
 	background:white;
 	border-radius:5px;
 	box-shadow: 0 2px 6px #efefef inset;
-	margin-left:0px!important;
 }
 
 /*
