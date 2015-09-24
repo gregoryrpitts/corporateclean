@@ -917,6 +917,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 
 .field-name-cc-knowledge-article {
 	margin-top:50px;
+    margin-bottom:20px;
 }
 
 .field-name-cc-knowledge-article h3 {
@@ -1404,10 +1405,10 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 }
   
 .node-type-knowledge-article .layout-responsive-region-body {
-	padding:10px;
+/*	padding:10px;*/
 	background:#FFFFFF;
 	border-radius:5px;
-	margin-bottom:20px;
+/*	margin-bottom:20px;*/
 }
 
 .node-type-knowledge-article .layout-responsive-region-body  .field-name-field-title-to-display p {
@@ -1596,6 +1597,22 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
     position:relative;
 }
 
+/*****************************************************************************/
+/*****************************************************************************/
+/* Recent Knowledge Article Block*/
+/*****************************************************************************/
+/*****************************************************************************/
+.recent-article-block-row.unformatted-list {
+    border-top:1px solid #b0182f;
+}
+
+.recent-article-block-row.unformatted-list h2{
+    font-size:16px;
+}
+
+.views-row-last.recent-article-block-row.unformatted-list {
+    border-bottom:1px solid #b0182f;
+}
 /*****************************************************************************/
 /*****************************************************************************/
 /* Top Ranked Knowledge Article Block*/
