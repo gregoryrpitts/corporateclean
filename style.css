@@ -1545,18 +1545,6 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 /* Knowledge Article Mini Teaser*/
 /*****************************************************************************/
 
-.node-knowledge-article.view-mode-mini_teaser img {
-    width:25%;
-    border:0px;
-    float:left;
-    padding:0;
-    margin-right:5px;
-}
-
-.node-knowledge-article.view-mode-mini_teaser .field-name-title h2{
-	margin-top:10px;
-}
-
 .node-single-workout .node-knowledge-article.view-mode-mini_teaser {
 	background:#E8E8E8;
 	border-radius: 5px;
@@ -1572,6 +1560,36 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 }
 
 .node-single-workout .node-knowledge-article.view-mode-mini_teaser .field-name-field-topic-tag {
+    position:absolute;
+    bottom:5px;
+    right:5px;
+}
+
+.node-knowledge-article.view-mode-mini_teaser {
+	position:relative;
+}
+
+.node-knowledge-article.view-mode-mini_teaser img {
+    width:25%;
+    border:0px;
+    float:left;
+    padding:0;
+    margin-right:5px;
+}
+
+.node-knowledge-article.view-mode-mini_teaser .field-name-title h2{
+	margin-top:10px;
+}
+
+.node-knowledge-article.view-mode-mini_teaser  .view-header h2 {
+	margin-bottom:0px;
+}
+
+.node-knowledge-article.view-mode-mini_teaser  .field-name-title {
+    position:relative;
+}
+
+.node-knowledge-article.view-mode-mini_teaser .field-name-field-topic-tag {
     position:absolute;
     bottom:5px;
     right:5px;
@@ -1853,23 +1871,6 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-bottom:20px;
 }
 
-.node-type-author-page .view-other-articles-by-author .view-header h2 {
-	margin-bottom:0px;
-}
-
-.node-type-author-page .view-other-articles-by-author .field-name-field-title-to-display p {
-	font-size:18px;
-    line-height:18px;
-}
-
-.node-type-author-page .view-other-articles-by-author .field-name-field-title-to-display {
-    position:relative;
-}
-.node-type-author-page .view-other-articles-by-author .field-name-field-topic-tag {
-    position:absolute;
-    bottom:5px;
-    right:5px;
-}
 
 .node-type-author-page .view-other-articles-by-author .views-row {
     border-top:1px solid #B0182F;
@@ -1909,6 +1910,10 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	background:white;
 	border-radius:5px;
 	box-shadow: 0 2px 6px #efefef inset;
+}
+
+.solid-red-border-top {
+	border-top:1px #b0182f solid;
 }
 
 .white-box {
