@@ -1658,6 +1658,44 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	font-size:16px;	
 }
  
+ 
+/*****************************************************************************/
+/*****************************************************************************/
+/* Other Articles in This Series View. */
+/*****************************************************************************/
+/*****************************************************************************/ 
+
+.other-articles-in-series-mini-teaser-block {
+	border-top:10px #efefef solid;
+	padding:25px 0px;
+}
+ 
+.other-articles-in-series-mini-teaser-block .view-header p{
+	font-size:20px; 
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	line-height:34px;
+	color:#b0182f;
+	text-align:center;
+	margin-bottom:0px;
+}
+
+.other-articles-in-series-mini-teaser-block .field-name-field-summary {
+	background:none;
+	padding:0px;
+}
+
+.other-articles-in-series-mini-teaser-block .field-name-field-summary p {
+	font-size: 14px;
+    line-height: 23px;	
+	text-align:left;
+	margin-top:0px;
+	padding-top:0px;
+	font: 0.8em/165% "Lucida Grande","Lucida Sans Unicode",Segoe UI,Helvetica,Arial,sans-serif;
+}
+
+
+ 
+ 
 /*****************************************************************************/
 /*****************************************************************************/
 /* Series Page */
@@ -1710,17 +1748,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-bottom:10px;
 }
 
-.field-name-all-articles-in-this-series-view {
-	text-align:center;
-} 
- 
-.node-type-knowledge-article .field-name-all-articles-in-this-series-view .views-column-2 {
-	float:right;
-} 
- 
- .node-type-knowledge-series-page .field-name-all-articles-in-this-series-view .views-column-2 {
-	float:right;
-} 
+
 
 .node-knowledge-series-page .field-name-field-title-to-display p{
 	margin-bottom:5px;
