@@ -637,6 +637,14 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	padding-left: 5px;
 }
 
+.layout-responsive-region-sidebar_a {
+	padding:15px;
+	background:white;
+	border-radius:5px;
+	box-shadow: 0 2px 6px #efefef inset;
+}
+
+
 /*****************************************************************************/
 /*****************************************************************************/
 /* Blocks */
@@ -1055,15 +1063,12 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
-/*
- * Custom Facility Page
- */
 
-.facility-custom-page .layout-responsive-region-sidebar_a {
-	padding:15px;
-	background:white;
-	border-radius:5px;
-}
+/*****************************************************************************/
+/*****************************************************************************/
+/*  Facility Custom Page */
+/*****************************************************************************/
+/*****************************************************************************/
 
 .facility-custom-page .layout-responsive-region-body .field-name-body {
 	background:white;
@@ -1097,9 +1102,9 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-top:10px;
 }
 
-
-
-
+.facility-custom-page .layout-responsive-region-sidebar_a {
+    margin-left:0px!important;
+}
 
 .facility-custom-page .layout-responsive-region-body .webform-client-form .webform-submit {
 	margin:auto;
@@ -1330,6 +1335,12 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	clear:both;
 }
 
+/*****************************************************************************/
+/*****************************************************************************/
+/* Knowledge Main Page Section */
+/*****************************************************************************/
+/*****************************************************************************/
+
 .knowledge-main-page-section {
 	margin-bottom:20px;
 }
@@ -1340,6 +1351,11 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	font-family: Georgia, Times, 'Times New Roman', serif;
 	border-bottom:3px solid #b0182f;
 	margin-bottom:10px;
+}
+
+.knowledge-main-page-section .layout-responsive-region-sidebar_a {
+	padding:0px;
+	box-shadow: none;
 }
 
 /*****************************************************************************/
@@ -1528,10 +1544,10 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 .node-knowledge-article.view-mode-wide_teaser h2 {
 	margin-top:15px;
 }	
+
 /*****************************************************************************/
 /* Knowledge Article Teaser*/
 /*****************************************************************************/
-
 .node-knowledge-article.node-teaser {
 	 margin-bottom:10px;
 	 position:relative;
@@ -1573,7 +1589,6 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 /*****************************************************************************/
 /* Knowledge Article Mini Teaser*/
 /*****************************************************************************/
-
 .node-single-workout .node-knowledge-article.view-mode-mini_teaser {
 	background:#E8E8E8;
 	border-radius: 5px;
@@ -1627,7 +1642,6 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 /*****************************************************************************/
 /* Knowledge Article Mini Teaser Title Only */
 /*****************************************************************************/
-
 .node-knowledge-article.view-mode-mini_teaser_title_only img {
     width:25%;
     border:0px;
@@ -1660,6 +1674,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 .views-row-last.recent-article-block-row.unformatted-list {
     border-bottom:1px solid #b0182f;
 }
+
 /*****************************************************************************/
 /*****************************************************************************/
 /* Top Ranked Knowledge Article Block*/
@@ -1846,21 +1861,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	text-align:center;
 }
 
-.page-knowledge-series .layout-responsive-region-sidebar_a {
-	padding:15px;
-	background:white;
-	border-radius:5px;
-}
 
-.page-knowledge-series .layout-responsive-region-sidebar_a .view-header {
-	border-radius:5px;
-	border: 10px;
-	color:#B0182F;
-	text-align:center;
-	font-size:24px;
-	padding:10px;
-	font-family: Georgia, Times, 'Times New Roman', serif;
-}
 
 /*****************************************************************************/
 /*****************************************************************************/
@@ -2082,12 +2083,6 @@ a:focus {
     margin-top:10px;
 }
 
-.layout-responsive-region-sidebar_a {
-	padding:15px;
-	background:white;
-	border-radius:5px;
-	box-shadow: 0 2px 6px #efefef inset;
-}
 
 /*
  * Sharebar!
