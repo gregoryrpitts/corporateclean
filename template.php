@@ -89,7 +89,11 @@ function corporateclean_preprocess_page(&$vars) {
     	);
 		
 	}	
-
+	
+	if (arg(0) == 'taxonomy' && arg(1) == 'term' && is_numeric(arg(2))) {
+    	$term = taxonomy_term_load(arg(2));
+    	$vars['theme_hook_suggestions'][] = 'page__vocabulary__' . $term->vocabulary_machine_name;
+	}
 }
 
 /**

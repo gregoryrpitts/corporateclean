@@ -1199,60 +1199,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	box-shadow: 0 2px 6px #efefef inset;
 }
 
-/*****************************************************************************/
-/*
- * Knowledge Main Page
- */ 
-.knowledge-main-page-content {
-	z-index:999;
-	position:relative;
-	background:#e8e8e8!important;
-}
 
-.knowledge-header {
-  width: 100%;
-  max-width: 940px;
-  min-width: 320px;
-  margin: 0 auto;
-  
-  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 3s; /* Firefox < 16 */
-  -ms-animation: fadein 3s; /* Internet Explorer */
-  -o-animation: fadein 3s; /* Opera < 12.1 */
-  animation: fadein 3s;
-}
-
-#knowledge-header {
-   width: 100%;
-   height:100px;
-   max-height: 100px;
-   background-size: cover;
-   background-attachment: fixed;
-}
-
-.knowledge-header img {
-	height:100px;
-	width:100px;
-}
-
-.page-knowledge .panel-separator {
-	clear: both;
-    display: block;
-    width: 100%;
-    height: 0;
-    font-size: 0;
-    line-height: 0;
-}
-
-.page-knowledge .pane-title {
-	border-bottom: 3px #B0182F solid;
-	border-radius:5px;
-	margin-top:0px;	
-}
-
-.page-knowledge .more-link {
-	clear:both;
-}
 
 /*****************************************************************************/
 /*
@@ -1323,6 +1270,76 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-left: auto;
 	margin-right: auto;
 	display:block;
+}
+
+
+/*****************************************************************************/
+/*****************************************************************************/
+/* Knowledge Main Page */
+/*****************************************************************************/
+/*****************************************************************************/
+ 
+.knowledge-main-page-content {
+	z-index:999;
+	position:relative;
+	background:#e8e8e8!important;
+}
+
+.knowledge-header {
+  width: 100%;
+  max-width: 940px;
+  min-width: 320px;
+  margin: 0 auto;
+  
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+
+#knowledge-header {
+   width: 100%;
+   height:100px;
+   max-height: 100px;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.knowledge-header img {
+	height:100px;
+	width:100px;
+}
+
+.page-knowledge .panel-separator {
+	clear: both;
+    display: block;
+    width: 100%;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+.page-knowledge .pane-title {
+	border-bottom: 3px #B0182F solid;
+	border-radius:5px;
+	margin-top:0px;	
+}
+
+.page-knowledge .more-link {
+	clear:both;
+}
+
+.knowledge-main-page-section {
+	margin-bottom:20px;
+}
+
+.knowledge-main-page-section .layout-responsive-region-navigation .views-field-title {
+	font-size:24px;
+	padding:10px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	border-bottom:3px solid #b0182f;
+	margin-bottom:10px;
 }
 
 /*****************************************************************************/
@@ -1499,6 +1516,18 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-bottom:20px;
 }
 
+/*****************************************************************************/
+/* Knowledge Article Wide Teaser */
+/*****************************************************************************/
+.node-knowledge-article.view-mode-wide_teaser img {
+	float: left;
+	padding:0px;
+	margin-right:10px;
+}
+
+.node-knowledge-article.view-mode-wide_teaser h2 {
+	margin-top:15px;
+}	
 /*****************************************************************************/
 /* Knowledge Article Teaser*/
 /*****************************************************************************/
