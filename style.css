@@ -972,6 +972,10 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	line-height:23px;
 }
 
+.constant-contact-sidebar-block .layout-responsive-region-body {
+	box-shadow:none!important;
+}
+
 /*****************************************************************************/
 /*****************************************************************************/
 /*  */
@@ -1750,6 +1754,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 /*****************************************************************************/
 /*****************************************************************************/
  
+ /*
 .node-knowledge-series-page.node-teaser {
 	 margin-bottom:10px;
 	 position:relative;
@@ -1818,9 +1823,11 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
     font-size:18px;
 }
 
+*/
+
 /*****************************************************************************/
 /*****************************************************************************/
-/* Knowledge Series Page */
+/* Knowledge Series Page - Page that shows a Teaser of each Series. 		 */
 /*****************************************************************************/
 /*****************************************************************************/
 
@@ -1835,17 +1842,11 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
-.page-knowledge-series .field-name-body {
-	font-size:14px;
-	line-height:23px;
-	text-align:center;
-}
-
 .page-knowledge-series .field-name-body p {
 	margin-bottom:15px;
 }
 
-.page-knowledge-series .field-name-field-title-to-display p{
+.page-knowledge-series .field-name-field-title-to-display p {
 	margin-bottom:0px;
 }
 
@@ -1861,11 +1862,45 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	border-radius:5px;
 }
 
-.page-knowledge-series .field-name-field-link-to-view {
-	text-align:center;
+/*****************************************************************************/
+/*****************************************************************************/
+/* Knowledge Series Page Node Type (User is ON a Knowledge Series Page)	     */
+/*****************************************************************************/
+/*****************************************************************************/
+
+.node-type-knowledge-series-page .series-page-title {
+	padding:10px;
+	margin-top:10px;	
 }
 
+.node-type-knowledge-series-page .series-page-title p {
+	font-size: 24px;
+    line-height: 39px;
+	color:#b0182f;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	border-bottom:3px solid #b0182f;
+}
 
+.node-type-knowledge-series-page .layout-responsive-region-body {
+	padding:15px;
+	background:white;
+	border-radius:5px;
+	box-shadow: 0 2px 6px #efefef inset;
+}
+
+.node-knowledge-series-page.view-mode-mini_teaser img {
+	float:left;
+	margin-right:5px;
+}
+
+.node-knowledge-series-page.view-mode-mini_teaser h2 {
+	margin-top:10px;
+}
+
+.node-knowledge-series-page.view-mode-mini_teaser .field-name-field-link-to-view {
+	text-align:right;
+	padding:5px;
+}
 
 /*****************************************************************************/
 /*****************************************************************************/
