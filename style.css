@@ -1329,12 +1329,6 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
     line-height: 0;
 }
 
-.page-knowledge .pane-title {
-	border-bottom: 3px #B0182F solid;
-	border-radius:5px;
-	margin-top:0px;	
-}
-
 .page-knowledge .more-link {
 	clear:both;
 }
@@ -1347,6 +1341,15 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 
 .knowledge-main-page-section {
 	margin-bottom:20px;
+}
+
+.knowledge-main-page-section .pane-node .pane-title {
+	font-size: 24px;
+    padding: 10px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 3px solid #b0182f;
+    margin-bottom: 10px;
+	margin-top:0px;
 }
 
 .knowledge-main-page-section .layout-responsive-region-navigation .views-field-title {
@@ -1665,6 +1668,22 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 
 .node-single-workout .node-knowledge-article.view-mode-mini_teaser_title_only .field-name-title {
     position:relative;
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+/* SDA Live Most Recent Block                                                */
+/*****************************************************************************/
+/*****************************************************************************/
+
+.sidebar-latest-sda-live p {
+	margin-bottom:0px;
+}
+
+.sidebar-latest-sda-live .views-field-field-one-sentence-teaser {
+	text-align:center;
+	font-size:18px;
+	line-height:29px;
 }
 
 /*****************************************************************************/
