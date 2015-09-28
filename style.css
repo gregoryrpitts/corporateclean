@@ -1343,6 +1343,10 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-bottom:20px;
 }
 
+.knowledge-main-page-section .view-of-basic-page .views-field-title {
+    color:#b0182f;
+}
+
 .knowledge-main-page-section .pane-node .pane-title {
 	font-size: 24px;
     padding: 10px;
@@ -1676,14 +1680,31 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 /*****************************************************************************/
 /*****************************************************************************/
 
-.sidebar-latest-sda-live p {
-	margin-bottom:0px;
+.sidebar-latest-sda-live {
+    position:relative;
 }
 
-.sidebar-latest-sda-live .views-field-field-one-sentence-teaser {
+.sidebar-latest-sda-live-title {
+    color:white;
+    position:absolute;
+    top:5px;
+    left:0px;
+    right:0px;
+    margin:auto;
+    line-height:29px;
+    font-size:18px;
+}
+
+.sidebar-latest-sda-live-body {
 	text-align:center;
 	font-size:18px;
 	line-height:29px;
+    position:absolute;
+    top:29px;
+}
+
+.sidebar-latest-sda-live-body a{
+    color:white;
 }
 
 /*****************************************************************************/
@@ -1849,6 +1870,18 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 /* Knowledge Series Page - Page that shows a Teaser of each Series. 		 */
 /*****************************************************************************/
 /*****************************************************************************/
+
+.knowledge-series-page-intro .pane-title {
+	font-size: 24px;
+    line-height: 39px;
+	color:#b0182f;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	border-bottom:3px solid #b0182f;
+}
+
+.knowledge-series-page-intro .pane-content .white-shadowed-box {
+    box-shadow:none!important;    
+}
 
 .page-knowledge-series .field-name-field-title-to-display {
 	padding:0px 10px;
