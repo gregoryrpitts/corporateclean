@@ -14,10 +14,12 @@
   <<?php print $title_wrapper ?> class="workout-title <?php print $title_classes; ?>">
     <?php print $title; ?>
   </<?php print $title_wrapper ?>>
-
-  <<?php print $announcements_wrapper ?> class="workout-announcements <?php print $announcements_classes; ?>">
+  
+  <?php if (!empty($announcements)):?>
+  <<?php print $announcements_wrapper ?> class="workout-announcements <?php print $announcements_classes?>">
     <?php print $announcements; ?>
   </<?php print $announcements_wrapper ?>>
+  <?php endif; ?>
 
   <<?php print $fitness_wrapper ?> class="workout-fitness <?php print $fitness_classes; ?>">
     <?php print $fitness; ?>
@@ -30,10 +32,12 @@
   <<?php print $bodybuilding_wrapper ?> class="workout-bodybuilding <?php print $bodybuilding_classes; ?>">
     <?php print $bodybuilding; ?>
   </<?php print $bodybuilding_wrapper ?>>
-  
+    
+    <?php if (!empty($olympic)):?>
   <<?php print $olympic_wrapper ?> class="workout-olympic <?php print $olympic_classes; ?>">
     <?php print $olympic; ?>
   </<?php print $olympic_wrapper ?>>
+    <?php endif; ?>
 
 </<?php print $layout_wrapper ?>>
 
