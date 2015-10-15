@@ -1435,6 +1435,50 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 }
 
 /*****************************************************************************/
+/* Movement Tutorial Mini Teaser*/
+/*****************************************************************************/
+
+.node-movement-tutorial.view-mode-mini_teaser {
+	background:#E8E8E8;
+	padding:10px;
+    margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+	position:relative;
+	border-top:1px solid #b0182f;
+}
+
+.node-movement-tutorial.view-mode-mini_teaser .field-name-title {
+    position:relative;
+}
+
+.node-movement-tutorial.view-mode-mini_teaser img {
+    width:25%;
+    border:0px;
+    float:left;
+    padding:0;
+    margin-right:5px;
+}
+
+.node-movement-tutorial.view-mode-mini_teaser .field-name-title h2{
+	margin-top:10px;
+}
+
+.node-movement-tutorial.view-mode-mini_teaser .view-header h2 {
+	margin-bottom:0px;
+}
+
+.node-movement-tutorial.view-mode-mini_teaser  .field-name-title {
+    position:relative;
+}
+
+.node-movement-tutorial.view-mode-mini_teaser .field-name-field-topic-category-reference {
+    position:absolute;
+    bottom:5px;
+    right:5px;
+}
+
+/*****************************************************************************/
 /*****************************************************************************/
 /* Knowledge Article */
 /*****************************************************************************/
