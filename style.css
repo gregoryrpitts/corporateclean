@@ -1371,6 +1371,71 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 
 /*****************************************************************************/
 /*****************************************************************************/
+/* Topic Category Page */
+/*****************************************************************************/
+/*****************************************************************************/
+
+.node-type-topic-category-page .field-name-field-topic-intro-reference .field-name-field-title-to-display p {
+	border-bottom: 3px solid #B0182F;
+	font-size:28px;
+	text-align:left;
+	padding-bottom:5px;
+}
+
+.node-type-topic-category-page .category-page-workout-section {
+	margin-top:10px;
+}
+
+.node-type-topic-category-page .category-page-workout-section .layout-responsive-region-body {
+	padding: 15px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px #efefef inset;
+}
+
+.node-type-topic-category-page .category-page-workout-view .views-field-title {
+	font-size:20px;
+	color:#B0182f;
+	padding-bottom:5px;
+	margin-bottom:15px;
+	border-bottom: 3px solid #B0182F;
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+/* Movement Tutorial */
+/*****************************************************************************/
+/*****************************************************************************/
+
+.node-type-movement-tutorial .layout-responsive-region-body {
+	padding:15px;
+	background:white;
+	border-radius:5px;
+	box-shadow: 0 2px 6px #efefef inset;
+}
+
+.node-type-movement-tutorial .layout-responsive-region-body .field-name-field-title-to-display {
+	padding:0px;
+}
+
+.node-type-movement-tutorial .layout-responsive-region-body .field-name-field-title-to-display p {
+	font-size: 24px;
+    line-height: 39px;
+	text-align:left;
+	color:#b0182f;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	border-bottom:3px solid #b0182f;
+}
+
+.node-type-movement-tutorial .layout-responsive-region-body iframe {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
 /* Knowledge Article */
 /*****************************************************************************/
 /*****************************************************************************/
