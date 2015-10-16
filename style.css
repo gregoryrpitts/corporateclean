@@ -1445,7 +1445,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-left:10px;
 	margin-right:10px;
 	position:relative;
-	border-top:1px solid #b0182f;
+	border-top:1px dashed #7f7f7f;
 }
 
 .node-movement-tutorial.view-mode-mini_teaser .field-name-title {
@@ -2450,6 +2450,7 @@ body ul#sharebarp {
 	border:1px solid #B0182F;
 	margin-left:10px;
 	margin-right:10px;
+    border:1px solid #B0182f;
 }
 
 .node.node-warmup-agility-session.node-teaser { 
