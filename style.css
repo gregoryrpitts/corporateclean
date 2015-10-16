@@ -644,6 +644,10 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	box-shadow: 0 2px 6px #efefef inset;
 }
 
+.not-top-sidebar-element {
+	margin-top:30px;
+}
+
 
 /*****************************************************************************/
 /*****************************************************************************/
@@ -821,10 +825,6 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
-
-.page-front .pane-fb-likebox-0 {
-	margin-top:40px;
 }
 
 /*****************************************************************************/
@@ -1776,7 +1776,9 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 }
 
 .node-knowledge-article.view-mode-mini_teaser_title_only .field-name-title h2{
-	margin-top:10px;
+	margin-top:15px;
+	font-size:16px;
+	
 }
 
 .node-single-workout .node-knowledge-article.view-mode-mini_teaser_title_only .field-name-title {
@@ -1818,38 +1820,11 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 
 /*****************************************************************************/
 /*****************************************************************************/
-/* Recent Knowledge Article Block*/
-/*****************************************************************************/
-/*****************************************************************************/
-.recent-article-block-row.unformatted-list {
-    border-top:1px solid #b0182f;
-}
-
-.recent-article-block-row.unformatted-list h2{
-    font-size:16px;
-}
-
-.views-row-last.recent-article-block-row.unformatted-list {
-    border-bottom:1px solid #b0182f;
-}
-
-/*****************************************************************************/
-/*****************************************************************************/
 /* Top Ranked Knowledge Article Block*/
 /*****************************************************************************/
 /*****************************************************************************/
-.pane-top-ranked-knowledge-articles {
-	margin-bottom: 50px;
-	margin-top:50px;
-}
-
 .pane-top-ranked-knowledge-articles h2 {
 	text-align:center;
-}
-
-.top-ranked-article-block-row {
-	padding:5px;
-	border-top:1px solid #b0182f;
 }
  
 .views-row-last.top-ranked-article-block-row {
@@ -1902,6 +1877,20 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 /* Series Page */
 /*****************************************************************************/
 /*****************************************************************************/
+ 
+ .node-knowledge-series-page.view-mode-mini_teaser_title_only img {
+    width: 25%;
+    border: 0px;
+    float: left;
+    padding: 0;
+    margin-right: 5px;
+}
+ 
+ .node-knowledge-series-page.view-mode-mini_teaser_title_only .field-name-title h2{
+	margin-top:15px;
+	font-size:16px;
+	
+}
  
  /*
 .node-knowledge-series-page.node-teaser {
@@ -2320,11 +2309,6 @@ body ul#sharebarp {
 /* sidebar-of-teasers */
 /*****************************************************************************/
 /*****************************************************************************/
-
-.first-sidebar-of-teasers .view-header p {
-    margin-top:25px;
-}
-
 .sidebar-of-teasers .view-header p{ 
 	padding:0px;
 	color:#B0182F;
@@ -2333,10 +2317,6 @@ body ul#sharebarp {
 	line-height:35px;
 	font-family: Georgia, Times, 'Times New Roman', serif;
 	margin-bottom:0px;
-}
-
-.sidebar-of-teasers {
-	margin-bottom:50px;
 }
 
 /*****************************************************************************/
@@ -2375,7 +2355,17 @@ body ul#sharebarp {
 
 /*****************************************************************************/
 /*****************************************************************************/
-/* workouts */
+/* Workout Main Page */
+/*****************************************************************************/
+/*****************************************************************************/
+
+.page-workouts .layout-responsive-region-sidebar_a {
+	margin-left:0px!important;
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+/* Workout Node Type */
 /*****************************************************************************/
 /*****************************************************************************/
 
@@ -2391,13 +2381,6 @@ body ul#sharebarp {
 	font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
-
-
-.pane-front-page-workouts {
-	margin-top:15px;
-	margin-bottom:15px;
-}
-
 .workout {
 	padding:10px;
 	background:#FDFDFD;
@@ -2406,8 +2389,6 @@ body ul#sharebarp {
 	box-shadow: 0 2px 6px #efefef inset;
 	border:1px solid #B0182F;
 }
-
-
 
 .view-workout-log.view-header {
 	padding:10px;
@@ -2466,6 +2447,7 @@ body ul#sharebarp {
 	border-radius: 5px;
 	padding:10px;
     margin-bottom:10px;
+	border:1px solid #B0182F;
 	margin-left:10px;
 	margin-right:10px;
 }
