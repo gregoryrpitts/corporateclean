@@ -1345,6 +1345,11 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 
 .knowledge-main-page-section .view-of-basic-page .views-field-title {
     color:#b0182f;
+	font-size:24px;
+	padding:10px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	border-bottom:3px solid #b0182f;
+	margin-bottom:10px;
 }
 
 .knowledge-main-page-section .pane-node .pane-title {
@@ -1354,14 +1359,6 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
     border-bottom: 3px solid #b0182f;
     margin-bottom: 10px;
 	margin-top:0px;
-}
-
-.knowledge-main-page-section .layout-responsive-region-navigation .views-field-title {
-	font-size:24px;
-	padding:10px;
-	font-family: Georgia, Times, 'Times New Roman', serif;
-	border-bottom:3px solid #b0182f;
-	margin-bottom:10px;
 }
 
 .knowledge-main-page-section .layout-responsive-region-sidebar_a {
@@ -1386,6 +1383,19 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-top:10px;
 }
 
+.node-type-topic-category-page .category-page-knowledge-preview-section {
+	margin-top:10px;
+}
+
+.node-type-topic-category-page .category-page-knowledge-preview-section .view-of-basic-page .views-field-title {
+    color:#b0182f;
+	font-size:20px;
+	padding:3px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	border-bottom:2px solid #b0182f;
+	margin-bottom:10px;
+}
+
 .node-type-topic-category-page .category-page-workout-section .layout-responsive-region-body {
 	padding: 15px;
     background: white;
@@ -1394,6 +1404,26 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 }
 
 .node-type-topic-category-page .category-page-workout-view .views-field-title {
+	font-size:20px;
+	color:#B0182f;
+	padding-bottom:5px;
+	margin-bottom:15px;
+	border-bottom: 3px solid #B0182F;
+}
+
+.node-type-topic-category-page .view-workout-log .views-row {
+	border:1px solid #b0182f;
+	border-radius: 5px;
+	padding:5px;
+	background:#e8e8e8;
+	margin-top:10px;
+}
+
+.node-type-topic-category-page .view-workout-log .views-row-first {
+	margin-top:0px;	
+}
+
+.node-type-topic-category-page .view-workout-log .view-header p {
 	font-size:20px;
 	color:#B0182f;
 	padding-bottom:5px;
@@ -1439,7 +1469,6 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 /*****************************************************************************/
 
 .node-movement-tutorial.view-mode-mini_teaser {
-	background:#E8E8E8;
 	padding:10px;
     margin-bottom:10px;
 	margin-left:10px;
@@ -1476,6 +1505,20 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
     position:absolute;
     bottom:5px;
     right:5px;
+}
+
+
+.node-movement-tutorial.view-mode-mini_teaser_title_only img {
+    width:25%;
+    border:0px;
+    float:left;
+    padding:0;
+    margin-right:5px;
+}
+
+.node-movement-tutorial.view-mode-mini_teaser_title_only .field-name-title h2{
+	margin-top:15px;
+	font-size:16px;	
 }
 
 /*****************************************************************************/
@@ -2363,6 +2406,20 @@ body ul#sharebarp {
 	margin-left:0px!important;
 }
 
+
+.page-workouts .view-workout-log .view-header {
+	margin-bottom:5px;
+	color:#7a7a7a;
+	font-style:italic;
+	text-align:center;
+	padding:10px;
+	background:#FDFDFD;
+	box-shadow: 0 2px 6px #efefef inset;
+	border-radius:5px;
+	border: 10px;
+	text-align:center;
+}
+
 /*****************************************************************************/
 /*****************************************************************************/
 /* Workout Node Type */
@@ -2476,18 +2533,6 @@ body ul#sharebarp {
 	padding:10px;
 }
 
-.view-workout-log .view-header {
-	margin-bottom:5px;
-	color:#7a7a7a;
-	font-style:italic;
-	text-align:center;
-	padding:10px;
-	background:#FDFDFD;
-	box-shadow: 0 2px 6px #efefef inset;
-	border-radius:5px;
-	border: 10px;
-	text-align:center;
-}
 
 .workout-agilityteaser {
 	background:#E8E8E8;
