@@ -1468,13 +1468,15 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 /* Movement Tutorial Mini Teaser*/
 /*****************************************************************************/
 
+.workout-subworkout .node-movement-tutorial.view-mode-mini_teaser {
+	border-top:1px dashed #7f7f7f;
+}
+
 .node-movement-tutorial.view-mode-mini_teaser {
-	padding:10px;
     margin-bottom:10px;
 	margin-left:10px;
 	margin-right:10px;
 	position:relative;
-	border-top:1px dashed #7f7f7f;
 }
 
 .node-movement-tutorial.view-mode-mini_teaser .field-name-title {
@@ -1886,7 +1888,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 
 .other-articles-in-series-mini-teaser-block {
 	border-top:10px #efefef solid;
-	padding:25px 0px;
+	padding-top:25px;
 }
  
 .other-articles-in-series-mini-teaser-block .view-header p{
@@ -2488,7 +2490,7 @@ body ul#sharebarp {
 	font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
-.workout-subworkout .field-label {
+.subworkout-section-label {
 	padding:0px 0 0 0;
 	color:#B0182F;
 	border-radius:5px;
