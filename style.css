@@ -1445,6 +1445,13 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-top:10px;
 }
 
+.node-type-topic-category-page .category-page-workout-section .layout-responsive-region-title {
+    background: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px #efefef inset;
+}
+
 .node-type-topic-category-page .category-page-knowledge-preview-section {
 	margin-top:10px;
 }
