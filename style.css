@@ -1372,7 +1372,63 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 /*****************************************************************************/
 /*****************************************************************************/
 
-.node-type-topic-category-page .field-name-field-topic-intro-reference .field-name-field-title-to-display p {
+.topic-category-page-all-knowledge-panel .layout-responsive-region-title {
+	background:white;
+	border-radius:5px;
+	padding:10px;
+	margin-top:10px;
+}
+
+.topic-category-page-all-knowledge-panel .topic-category-page-all-knowledge-panel-title p{
+    color:#b0182f;
+	font-size:24px;
+	padding:10px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	border-bottom:3px solid #b0182f;
+	margin-bottom:10px;
+}
+
+
+.topic-category-page-all-knowledge-panel .responsive-grid-3-row {
+	clear:both;
+	position:relative;
+	border-top:1px dashed #7F7F7F;
+}
+
+.topic-category-page-all-knowledge-panel .responsive-grid-3-row.views-row-first {
+	border-top:none;
+}
+
+.topic-category-page-all-knowledge-panel .responsive-grid-3-row .views-column-2 {
+	display: block;
+    float: none;
+    margin-left: auto;
+	margin-right: auto;
+	padding-right:10px;
+	padding-left:10px;
+	border-right:1px dashed #7F7F7F;
+	border-left:1px dashed #7F7F7F;
+}
+
+.topic-category-page-all-knowledge-panel .responsive-grid-3-row .views-column-3 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+@media (max-width:760px) { 
+	.topic-category-page-all-knowledge-panel .responsive-grid-3-row .views-column-3 {
+    	position:initial;
+		border-top:1px dashed #7F7F7F;
+	}
+	.topic-category-page-all-knowledge-panel .responsive-grid-3-row .views-column-2 {
+		border-right:none;
+		border-left:none;
+		border-top:1px dashed #7F7F7F;
+	}	
+}
+
+.node-type-topic-category-page .field-name-field-topic-intro-reference .field-name-field-title-to-display {
 	border-bottom: 3px solid #B0182F;
 	font-size:28px;
 	text-align:left;
@@ -1757,7 +1813,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
  }
 
 /*****************************************************************************/
-/* Knowledge Article Mini Teaser*/
+/* Knowledge Article Mini Teaser */
 /*****************************************************************************/
 .node-single-workout .node-knowledge-article.view-mode-mini_teaser {
 	background:#E8E8E8;
@@ -1804,6 +1860,60 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 }
 
 .node-knowledge-article.view-mode-mini_teaser .field-name-field-topic-tag {
+    position:absolute;
+    bottom:5px;
+    right:5px;
+}
+
+
+/*****************************************************************************/
+/* Knowledge Article Mini Teaser No Category*/
+/*****************************************************************************/
+.node-single-workout .node-knowledge-article.view-mode-mini_teaser_no_category {
+	background:#E8E8E8;
+	border-radius: 5px;
+	padding:10px;
+    margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+	position:relative;
+}
+
+.node-single-workout .node-knowledge-article.view-mode-mini_teaser_no_category .field-name-title {
+    position:relative;
+}
+
+.node-single-workout .node-knowledge-article.view-mode-mini_teaser_no_category .field-name-field-topic-tag {
+    position:absolute;
+    bottom:5px;
+    right:5px;
+}
+
+.node-knowledge-article.view-mode-mini_teaser_no_category {
+	position:relative;
+}
+
+.node-knowledge-article.view-mode-mini_teaser_no_category img {
+    width:25%;
+    border:0px;
+    float:left;
+    padding:0;
+    margin-right:5px;
+}
+
+.node-knowledge-article.view-mode-mini_teaser_no_category .field-name-title h2{
+	margin-top:10px;
+}
+
+.node-knowledge-article.view-mode-mini_teaser_no_category .view-header h2 {
+	margin-bottom:0px;
+}
+
+.node-knowledge-article.view-mode-mini_teaser_no_category .field-name-title {
+    position:relative;
+}
+
+.node-knowledge-article.view-mode-mini_teaser_no_category .field-name-field-topic-tag {
     position:absolute;
     bottom:5px;
     right:5px;
