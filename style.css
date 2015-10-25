@@ -1371,6 +1371,12 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 /* Topic Category Page */
 /*****************************************************************************/
 /*****************************************************************************/
+.field-name-field-topic-category-intro-refer .layout-responsive-region-body {
+	border-radius:5px;
+	background:white;
+	padding:10px;
+	box-shadow: 0 2px 6px #efefef inset;
+}
 
 .topic-category-page-all-knowledge-panel .layout-responsive-region-title {
 	background:white;
@@ -1533,6 +1539,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	margin-left:10px;
 	margin-right:10px;
 	position:relative;
+	border-top:1px dashed #7f7f7f;
 }
 
 .node-movement-tutorial.view-mode-mini_teaser .field-name-title {
@@ -1829,12 +1836,6 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
     position:relative;
 }
 
-.node-single-workout .node-knowledge-article.view-mode-mini_teaser .field-name-field-topic-tag {
-    position:absolute;
-    bottom:5px;
-    right:5px;
-}
-
 .node-knowledge-article.view-mode-mini_teaser {
 	position:relative;
 }
@@ -1859,7 +1860,7 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
     position:relative;
 }
 
-.node-knowledge-article.view-mode-mini_teaser .field-name-field-topic-tag {
+.node-knowledge-article.view-mode-mini_teaser .field-name-field-topic-category-reference {
     position:absolute;
     bottom:5px;
     right:5px;
@@ -2023,9 +2024,6 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	padding-top:0px;
 	font: 0.8em/165% "Lucida Grande","Lucida Sans Unicode",Segoe UI,Helvetica,Arial,sans-serif;
 }
-
-
- 
  
 /*****************************************************************************/
 /*****************************************************************************/
