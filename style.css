@@ -1949,29 +1949,37 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 
 .sidebar-latest-sda-live {
     position:relative;
+	border:3px dashed #e7e7e7;
+	border-radius:5px;
+}
+
+.sidebar-latest-sda-live-img {
+	width:50%;	
+}
+
+.sidebar-latest-sda-live-img p {
+	margin-bottom:0px;
 }
 
 .sidebar-latest-sda-live-title {
-    color:white;
+    color:black;
     position:absolute;
-    top:5px;
-    left:0px;
-    right:0px;
-    margin:auto;
+    top:15px;
+    right:-5px;
+    width:50%;
     line-height:29px;
     font-size:18px;
+	text-align:center;
 }
 
 .sidebar-latest-sda-live-body {
 	text-align:center;
 	font-size:18px;
 	line-height:29px;
-    position:absolute;
-    top:29px;
 }
 
 .sidebar-latest-sda-live-body a{
-    color:white;
+    color:#B0182F;
 }
 
 /*****************************************************************************/
