@@ -1,0 +1,12 @@
+/**
+ * @file
+ * RTL styling for the ds-2col-stacked template.
+ */
+
+.ds-stacked-sidebar > .stacked-sidebar-body-full {
+  float: right;
+}
+
+.ds-stacked-sidebar > .stacked-sidebar-sidebar-full {
+  float: left;
+}
