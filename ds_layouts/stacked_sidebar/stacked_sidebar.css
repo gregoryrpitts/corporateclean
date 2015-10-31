@@ -1,0 +1,48 @@
+/**
+ * @file
+ * Styling for the ds-2col-stacked template.
+ */
+
+.ds-stacked-sidebar > .stacked-sidebar-header-region {
+}
+
+.ds-stacked-sidebar > .stacked-sidebar-body-full {
+  float: left; /* LTR */
+  width: 66%;
+}
+
+.ds-stacked-sidebar > .stacked-sidebar-sidebar-full {
+  	float: right; /* LTR */
+  	width: 32%;
+  	margin-left: 2%;
+  	/*background:white;
+	border-radius: 5px;
+	box-shadow: 0 2px 6px #efefef inset;*/
+}
+
+.ds-stacked-sidebar > .stacked-sidebar-body-full > .stacked-sidebar-body-middle {
+  margin-top:10px;
+}
+
+.ds-stacked-sidebar > .stacked-sidebar-body-full > .stacked-sidebar-body-bottom {
+  margin-top:10px;
+}
+
+.ds-stacked-sidebar > .stacked-sidebar-footer-region {
+  clear: both;
+}
+
+@media screen and (max-width:760px) {
+	.ds-stacked-sidebar .stacked-sidebar-col {
+		width: 100%;
+		margin-left:0px;
+	}
+	
+	.ds-stacked-sidebar > .stacked-sidebar-sidebar-full {
+		margin-top:10px;	
+	}
+} 
+
+
+
+
