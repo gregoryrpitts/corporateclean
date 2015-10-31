@@ -2059,6 +2059,113 @@ body ul#sharebarp {
 	font-size:16px;	
 }
 
+
+/*****************************************************************************/
+/*****************************************************************************/
+/* Knowledge Series Page - View Mode Full */
+/*****************************************************************************/
+/*****************************************************************************/
+
+/* Region holding the Series Page Body */
+.node-knowledge-series-page.view-mode-full .stacked-sidebar-body-top {
+	background:white;
+	border-radius: 5px;
+	box-shadow: 0 2px 6px #efefef inset;
+	padding-bottom:10px;
+}
+
+/* Region holding the "Articles In This Series" */
+.node-knowledge-series-page.view-mode-full .stacked-sidebar-body-middle {
+	background:white;
+	border-radius: 5px;
+	box-shadow: 0 2px 6px #efefef inset;
+	padding-bottom:10px;
+}
+
+/* Series Page Title */
+.node-knowledge-series-page.view-mode-full .series-page-title {
+	margin-top:0px;
+	padding-top:40px!important;
+}
+.node-knowledge-series-page.view-mode-full .series-page-title p {
+	font-size: 24px;
+    line-height: 39px;
+	color:#b0182f;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+/* Body */
+.node-knowledge-series-page.view-mode-full .field-name-body p {
+	padding-left:10px;
+	padding-right:10px;
+
+}
+.node-knowledge-series-page.view-mode-full .field-name-body img{
+	max-width:90%;
+	border:1px black solid;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
+.node-knowledge-series-page.view-mode-full .field-name-body iframe {
+	max-width:90%;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+/* Knowledge Series Page - View Mode Mini Teaser 							 */
+/*****************************************************************************/
+/*****************************************************************************/
+
+.node-knowledge-series-page.view-mode-mini_teaser img {
+	float:left;
+	margin-right:5px;
+}
+
+.node-knowledge-series-page.view-mode-mini_teaser h2 {
+	margin-top:10px;
+}
+
+.node-knowledge-series-page.view-mode-mini_teaser .field-name-field-link-to-view {
+	text-align:right;
+	padding:5px;
+}
+
+.node-knowledge-series-page.view-mode-mini_teaser .field-name-body {
+	font-size:14px;
+	line-height:23px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: Georgia, Times, 'Times New Roman', serif;	
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+/* Knowledge Series Page - View Mode Mini Teaser Title Only 				 */
+/*****************************************************************************/
+/*****************************************************************************/
+ 
+ .node-knowledge-series-page.view-mode-mini_teaser_title_only img {
+    width: 25%;
+    border: 0px;
+    float: left;
+    padding: 0;
+    margin-right: 5px;
+}
+ 
+ .node-knowledge-series-page.view-mode-mini_teaser_title_only .field-name-title h2{
+	margin-top:15px;
+	font-size:16px;
+	
+}
+
 /*****************************************************************************/
 /*****************************************************************************/
 /* Knowledge Article - View Mode Full */
@@ -2073,7 +2180,7 @@ body ul#sharebarp {
 	padding-bottom:10px;
 }
 
-/* Region holding the Article Body */
+/* Region holding "Other Articles In This Series" */
 .node-knowledge-article.view-mode-full .stacked-sidebar-body-middle {
 	background:white;
 	border-radius: 5px;
@@ -2081,7 +2188,7 @@ body ul#sharebarp {
 	padding-bottom:10px;
 }
 
-/* Region holding the Article Body */
+/* Region holding the "Author Teaser" Body */
 .node-knowledge-article.view-mode-full .stacked-sidebar-body-bottom {
 	background:white;
 	border-radius: 5px;
@@ -2470,97 +2577,6 @@ body ul#sharebarp {
  
 /*****************************************************************************/
 /*****************************************************************************/
-/* Series Page */
-/*****************************************************************************/
-/*****************************************************************************/
- 
- .node-knowledge-series-page.view-mode-mini_teaser_title_only img {
-    width: 25%;
-    border: 0px;
-    float: left;
-    padding: 0;
-    margin-right: 5px;
-}
- 
- .node-knowledge-series-page.view-mode-mini_teaser_title_only .field-name-title h2{
-	margin-top:15px;
-	font-size:16px;
-	
-}
- 
- /*
-.node-knowledge-series-page.node-teaser {
-	 margin-bottom:10px;
-	 position:relative;
- }
-
-.node-knowledge-series-page.node-teaser a{
-	color:#FFFFFF; 
-}
-
-.node-knowledge-series-page.node-teaser h2{
-	 position:absolute;
-	 z-index:100;
-	 margin:0px;
-	 padding-top:15px;
-	 padding-bottom:15px;
-	 bottom:1px;
-	 vertical-align: bottom;
-	 background: rgba(0,0,0,0.5);
-     width: 100%;
-     text-align: center;
-	 border-radius:5px;
- }
- 
-.node-knowledge-series-page.node-teaser img {
-       border:1px black solid;
-       border-radius:5px; 
-	   padding:0px;
-	   margin-bottom:0px;
-}
-
-.node-knowledge-series-page.node-teaser h2:hover{
-	 background:rgba(108,50,34,0.6);
-}
-
-.views-responsive-grid .node-knowledge-series-page.node-teaser {
-	 margin-bottom:10px!important;
-	 position:relative;
-}
- 
-.node-knowledge-series-page.view-mode-full {
-	background:white;
-	padding:10px;
-	border-radius:5px;
-	margin-bottom:10px;
-}
-
-
-
-.node-knowledge-series-page .field-name-field-title-to-display p{
-	margin-bottom:5px;
-}
-
-.node-knowledge-series-page .field-name-body {
-	font-size:14px;
-	line-height:23px;
-	text-align:center;
-}
-
-.node-knowledge-series-page .field-name-body p{
-	margin-bottom:25px;
-}
-
-.series-summary-title {
-    text-align:center;
-    margin-top:10px;
-    font-size:18px;
-}
-
-*/
-
-/*****************************************************************************/
-/*****************************************************************************/
 /* Knowledge Series Page - Page that shows a Teaser of each Series. 		 */
 /*****************************************************************************/
 /*****************************************************************************/
@@ -2608,45 +2624,7 @@ body ul#sharebarp {
 	border-radius:5px;
 }
 
-/*****************************************************************************/
-/*****************************************************************************/
-/* Knowledge Series Page Node Type (User is ON a Knowledge Series Page)	     */
-/*****************************************************************************/
-/*****************************************************************************/
 
-.node-type-knowledge-series-page .series-page-title {
-	padding:10px;
-	margin-top:10px;	
-}
-
-.node-type-knowledge-series-page .series-page-title p {
-	font-size: 24px;
-    line-height: 39px;
-	color:#b0182f;
-	font-family: Georgia, Times, 'Times New Roman', serif;
-	border-bottom:3px solid #b0182f;
-}
-
-.node-type-knowledge-series-page .layout-responsive-region-body {
-	padding:15px;
-	background:white;
-	border-radius:5px;
-	box-shadow: 0 2px 6px #efefef inset;
-}
-
-.node-knowledge-series-page.view-mode-mini_teaser img {
-	float:left;
-	margin-right:5px;
-}
-
-.node-knowledge-series-page.view-mode-mini_teaser h2 {
-	margin-top:10px;
-}
-
-.node-knowledge-series-page.view-mode-mini_teaser .field-name-field-link-to-view {
-	text-align:right;
-	padding:5px;
-}
 
 /*****************************************************************************/
 /*****************************************************************************/
