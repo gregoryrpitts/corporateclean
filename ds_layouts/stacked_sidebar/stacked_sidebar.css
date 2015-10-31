@@ -4,6 +4,7 @@
  */
 
 .ds-stacked-sidebar > .stacked-sidebar-header-region {
+	
 }
 
 .ds-stacked-sidebar > .stacked-sidebar-body-full {
@@ -15,9 +16,6 @@
   	float: right; /* LTR */
   	width: 32%;
   	margin-left: 2%;
-  	/*background:white;
-	border-radius: 5px;
-	box-shadow: 0 2px 6px #efefef inset;*/
 }
 
 .ds-stacked-sidebar > .stacked-sidebar-body-full > .stacked-sidebar-body-middle {
