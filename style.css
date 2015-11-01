@@ -975,6 +975,14 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	border-top:1px #b0182f solid;
 }
 
+.stacked-element-separator {
+	margin-top:10px;
+}
+
+.views-row-first.stacked-element-separator {
+	margin-top:0px;
+}
+
 .white-box {
 	background-color:white;
 	border-radius:5px;
@@ -1832,6 +1840,13 @@ body ul#sharebarp {
 	box-shadow: none;
 }
 
+.page-authors .layout-responsive-region-sidebar_a {
+	padding:0px;
+	box-shadow: none;
+	background:none;
+	border-radius:0px;
+}
+
 /*****************************************************************************/
 /*****************************************************************************/
 /* Topic Category Page */
@@ -1959,41 +1974,177 @@ body ul#sharebarp {
 	border-bottom: 3px solid #B0182F;
 }
 
+
+
+
 /*****************************************************************************/
 /*****************************************************************************/
-/* Movement Tutorial */
+/* Author Page - View Mode Summary  										 */
 /*****************************************************************************/
 /*****************************************************************************/
 
-.node-type-movement-tutorial .layout-responsive-region-body {
+.node-author-page.view-mode-summary { 
+	background:white;
+	box-shadow: 0 2px 6px #efefef inset;
+	border-radius: 5px;
+	padding:10px!important;
+}
+
+.node-author-page.view-mode-summary .field-name-field-author-page-name {
+	padding:10px 0 0 10px;
+	margin-bottom:10px;
+    margin-top:0px;
+    color:#B0182F;
+	text-align:center;
+	font-size:20px;
+	line-height:35px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.node-author-page.view-mode-summary .field-name-field-author-image img {
+	padding: 0px;
+	margin: 0px;
+}
+
+.node-author-page.view-mode-summary .field-name-body {
+	margin-left: 10px;
+}
+
+.author-teaser {
+	padding:10px;
+}
+
+.author-teaser-title {
+	padding:10px 0 0 10px;
+	margin-bottom:10px;
+    margin-top:0px;
+    color:#B0182F;
+	text-align:center;
+	font-size:20px;
+	line-height:35px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.author-teaser-read-more {
+    text-align:right;
+}
+
+.node-type-author-page .layout-responsive-region-body {
 	padding:15px;
 	background:white;
 	border-radius:5px;
+	box-shadow: 0 2px 6px #efefef inset; 
+}
+
+.node-type-author-page .layout-responsive-region-body img {
+    border: 1px black solid;
+}
+
+.node-type-author-page .field-name-articles-by-current-author {
+    border-top: 10px solid #EFEFEF;
+    border-radius:0px;
+}
+
+.node-type-author-page .field-name-field-author-page-name {
+	padding:10px 0 0 0;
+	color:#B0182F;
+	text-align:center;
+	font-size:20px;
+	line-height:35px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	margin-bottom:20px;
+}
+
+.node-type-author-page .field-name-body {
+	text-align:center;
+}
+
+.node-type-author-page .view-other-articles-by-author .view-header {
+	padding:10px 0 0 0;
+	color:#B0182F;
+	text-align:center;
+	font-size:20px;
+	line-height:35px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	margin-bottom:20px;
+}
+
+
+.node-type-author-page .view-other-articles-by-author .views-row {
+    border-top:1px solid #B0182F;
+    position:relative;
+}
+
+
+/*****************************************************************************/
+/*****************************************************************************/
+/* Movement Tutorial - View Mode Full 										 */
+/*****************************************************************************/
+/*****************************************************************************/
+
+/* Region holding the Article Body */
+.node-movement-tutorial.view-mode-full .stacked-sidebar-body-top {
+	background:white;
+	border-radius: 5px;
 	box-shadow: 0 2px 6px #efefef inset;
+	padding-bottom:10px;
 }
 
-.node-type-movement-tutorial .layout-responsive-region-body .field-name-field-title-to-display {
-	padding:0px;
+/* Region holding "Other Articles In This Series" */
+.node-movement-tutorial.view-mode-full .stacked-sidebar-body-middle {
+	background:white;
+	border-radius: 5px;
+	box-shadow: 0 2px 6px #efefef inset;
+	padding-bottom:10px;
 }
 
-.node-type-movement-tutorial .layout-responsive-region-body .field-name-field-title-to-display p {
+/* Movment Tutorial Page Title */
+.node-movement-tutorial.view-mode-full .field-name-field-title-to-display {
+	margin-top:0px;
+	padding-top:40px!important;
+}
+.node-movement-tutorial.view-mode-full .field-name-field-title-to-display p {
 	font-size: 24px;
     line-height: 39px;
-	text-align:left;
 	color:#b0182f;
 	font-family: Georgia, Times, 'Times New Roman', serif;
-	border-bottom:3px solid #b0182f;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
 }
 
-.node-type-movement-tutorial .layout-responsive-region-body iframe {
+/* Series Reference */
+.node-movement-tutorial.view-mode-full .series-node-reference {
+	text-align:center;
+	margin-bottom:15px;
+}
+
+/* Body */
+.node-movement-tutorial.view-mode-full .field-name-body iframe {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
+.node-movement-tutorial.view-mode-full .field-name-body p {
+	padding-left:10px;
+	padding-right:10px;
+
+}
+.node-movement-tutorial.view-mode-full .field-name-body ol {
+	margin-right:10px;
+}	
+.node-movement-tutorial.view-mode-full .field-name-body img{
+	max-width:90%;
+	border:1px black solid;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
 
 /*****************************************************************************/
-/* Movement Tutorial Mini Teaser*/
+/* Movement Tutorial - View Mode Mini Teaser*/
 /*****************************************************************************/
 
 .workout-subworkout .node-movement-tutorial.view-mode-mini_teaser {
@@ -2006,6 +2157,11 @@ body ul#sharebarp {
 	margin-right:10px;
 	position:relative;
 	border-top:1px dashed #7f7f7f;
+}
+
+/* Disable top border on Movement Tutorial Pages */
+.node-movement-tutorial.view-mode-full .node-movement-tutorial.view-mode-mini_teaser {
+	border-top:none;
 }
 
 .node-movement-tutorial.view-mode-mini_teaser .field-name-title {
@@ -2037,7 +2193,6 @@ body ul#sharebarp {
     bottom:5px;
     right:5px;
 }
-
 
 .node-movement-tutorial.view-mode-mini_teaser_title_only img {
     width:25%;
@@ -2283,6 +2438,9 @@ body ul#sharebarp {
 	margin-right: 10px;
 	font-family: Georgia, Times, 'Times New Roman', serif;
 }
+.node-knowledge-article.view-mode-full .knowledge-article-view-mode-full ol {
+	margin-right:10px;
+}	
 .node-knowledge-article.view-mode-full .knowledge-article-view-mode-full .field-name-body img{
 	max-width:90%;
 	border:1px black solid;
@@ -2568,6 +2726,10 @@ body ul#sharebarp {
 	padding-top:0px;
 }
  
+.other-articles-in-series-mini-teaser-block .node-movement-tutorial.view-mode-mini_teaser {
+	border-top:none;
+}
+ 
 /*****************************************************************************/
 /*****************************************************************************/
 /* Knowledge Series Page - Page that shows a Teaser of each Series. 		 */
@@ -2617,78 +2779,6 @@ body ul#sharebarp {
 	border-radius:5px;
 }
 
-
-
-/*****************************************************************************/
-/*****************************************************************************/
-/* Author Page */
-/*****************************************************************************/
-/*****************************************************************************/
-
-.author-teaser {
-	padding:10px;
-}
-
-.author-teaser-title {
-	padding:10px 0 0 10px;
-	margin-bottom:10px;
-    margin-top:0px;
-    color:#B0182F;
-	text-align:center;
-	font-size:20px;
-	line-height:35px;
-	font-family: Georgia, Times, 'Times New Roman', serif;
-}
-
-.author-teaser-read-more {
-    text-align:right;
-}
-
-.node-type-author-page .layout-responsive-region-body {
-	padding:15px;
-	background:white;
-	border-radius:5px;
-	box-shadow: 0 2px 6px #efefef inset; 
-}
-
-.node-type-author-page .layout-responsive-region-body img {
-    border: 1px black solid;
-}
-
-.node-type-author-page .field-name-articles-by-current-author {
-    border-top: 10px solid #EFEFEF;
-    border-radius:0px;
-}
-
-.node-type-author-page .field-name-field-author-page-name {
-	padding:10px 0 0 0;
-	color:#B0182F;
-	text-align:center;
-	font-size:20px;
-	line-height:35px;
-	font-family: Georgia, Times, 'Times New Roman', serif;
-	margin-bottom:20px;
-}
-
-.node-type-author-page .field-name-body {
-	text-align:center;
-}
-
-.node-type-author-page .view-other-articles-by-author .view-header {
-	padding:10px 0 0 0;
-	color:#B0182F;
-	text-align:center;
-	font-size:20px;
-	line-height:35px;
-	font-family: Georgia, Times, 'Times New Roman', serif;
-	margin-bottom:20px;
-}
-
-
-.node-type-author-page .view-other-articles-by-author .views-row {
-    border-top:1px solid #B0182F;
-    position:relative;
-}
 
 /*****************************************************************************/
 /*****************************************************************************/
