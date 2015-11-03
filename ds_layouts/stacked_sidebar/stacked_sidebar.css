@@ -3,7 +3,7 @@
  * Styling for the ds-2col-stacked template.
  */
 
-.ds-stacked-sidebar > .stacked-sidebar-header-region {
+.ds-stacked-sidebar > .stacked-sidebar-header {
 	
 }
 
@@ -16,6 +16,7 @@
   	float: right; /* LTR */
   	width: 32%;
   	margin-left: 2%;
+ 	margin-bottom:10px;
 }
 
 .ds-stacked-sidebar > .stacked-sidebar-body-full > .stacked-sidebar-body-middle {
@@ -24,9 +25,10 @@
 
 .ds-stacked-sidebar > .stacked-sidebar-body-full > .stacked-sidebar-body-bottom {
   margin-top:10px;
+  margin-bottom:10px;
 }
 
-.ds-stacked-sidebar > .stacked-sidebar-footer-region {
+.ds-stacked-sidebar > .stacked-sidebar-footer {
   clear: both;
 }
 

@@ -1984,19 +1984,136 @@ body ul#sharebarp {
 
 
 
+
+
 /*****************************************************************************/
 /*****************************************************************************/
-/* Author Page - View Mode Summary  										 */
+/* Author Page - View Mode Full      										 */
 /*****************************************************************************/
 /*****************************************************************************/
 
+/* Region holding the Author Page Body */
+.node-author-page.view-mode-full .stacked-sidebar-body-top {
+	background:white;
+	border-radius: 5px;
+	box-shadow: 0 2px 6px #efefef inset;
+	padding-bottom:10px;
+}
+.node-author-page.view-mode-full .stacked-sidebar-body-middle {
+	background:white;
+	border-radius: 5px;
+	box-shadow: 0 2px 6px #efefef inset;
+	padding-bottom:10px;
+}
+.node-author-page.view-mode-full .stacked-sidebar-footer {
+	background:white;
+	border-radius: 5px;
+	box-shadow: 0 2px 6px #efefef inset;
+	padding-bottom:10px;
+}
+/* Author name at top of Author Page */
+.node-author-page .field-name-field-author-page-name p {
+	font-size: 24px;
+    line-height: 39px;
+	color:#b0182f;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+}
+.node-author-page.view-mode-full .field-name-field-author-page-name {
+	margin-top:0px;
+	padding-top:40px!important;
+	padding:10px 0 0 0;
+	color:#B0182F;
+	text-align:center;
+	font-size:20px;
+	line-height:35px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	margin-bottom:20px;
+}
+/* Body p regions */
+.node-author-page.view-mode-full .field-name-body p {
+	padding-left:10px;
+	padding-right:10px;
+}
+.node-author-page.view-mode-full .field-name-body img{
+	max-width:90%;
+	border:1px black solid;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
+/* Showing other articles by author */
+.node-author-page.view-mode-full .view-other-articles-by-author .view-header {
+	padding:10px 0 0 0;
+	color:#B0182F;
+	text-align:center;
+	font-size:20px;
+	line-height:35px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	margin-bottom:20px;
+}
+
+/* I'd like to turn this into a Generic Grid at some point. */
+.node-author-page.view-mode-full .view-other-articles-by-author .responsive-grid-3-row {
+	clear:both;
+	position:relative;
+	border-top:1px dashed #7F7F7F;
+}
+
+.node-author-page.view-mode-full .view-other-articles-by-author .responsive-grid-3-row.views-row-first {
+	border-top:none;
+}
+
+.node-author-page.view-mode-full .view-other-articles-by-author .responsive-grid-3-row .views-column-2 {
+	display: block;
+    float: none;
+    margin-left: auto;
+	margin-right: auto;
+	padding-right:10px;
+	padding-left:10px;
+	border-right:1px dashed #7F7F7F;
+	border-left:1px dashed #7F7F7F;
+}
+
+.node-author-page.view-mode-full .view-other-articles-by-author .responsive-grid-3-row .views-column-3 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+@media (max-width:760px) { 
+	.node-author-page.view-mode-full .view-other-articles-by-author .responsive-grid-3-row .views-column-3 {
+    	position:initial;
+		border-top:1px dashed #7F7F7F;
+	}
+	.node-author-page.view-mode-full .view-other-articles-by-author .responsive-grid-3-row .views-column-2 {
+		border-right:none;
+		border-left:none;
+		border-top:1px dashed #7F7F7F;
+	}	
+}
+
+
+
+
+
+
+
+
+/*****************************************************************************/
+/*****************************************************************************/
+/* Author Page - View Mode Summary     										 */
+/*****************************************************************************/
+/*****************************************************************************/
 .node-author-page.view-mode-summary { 
 	background:white;
 	box-shadow: 0 2px 6px #efefef inset;
 	border-radius: 5px;
 	padding:10px!important;
 }
-
 .node-author-page.view-mode-summary .field-name-field-author-page-name {
 	padding:10px 0 0 10px;
 	margin-bottom:10px;
@@ -2007,20 +2124,22 @@ body ul#sharebarp {
 	line-height:35px;
 	font-family: Georgia, Times, 'Times New Roman', serif;
 }
-
 .node-author-page.view-mode-summary .field-name-field-author-image img {
 	padding: 0px;
 	margin: 0px;
 }
-
 .node-author-page.view-mode-summary .field-name-body {
 	margin-left: 10px;
 }
 
+/*****************************************************************************/
+/*****************************************************************************/
+/* Author Page - View Mode Teaser     										 */
+/*****************************************************************************/
+/*****************************************************************************/
 .author-teaser {
 	padding:10px;
 }
-
 .author-teaser-title {
 	padding:10px 0 0 10px;
 	margin-bottom:10px;
@@ -2031,57 +2150,9 @@ body ul#sharebarp {
 	line-height:35px;
 	font-family: Georgia, Times, 'Times New Roman', serif;
 }
-
 .author-teaser-read-more {
     text-align:right;
 }
-
-.node-type-author-page .layout-responsive-region-body {
-	padding:15px;
-	background:white;
-	border-radius:5px;
-	box-shadow: 0 2px 6px #efefef inset; 
-}
-
-.node-type-author-page .layout-responsive-region-body img {
-    border: 1px black solid;
-}
-
-.node-type-author-page .field-name-articles-by-current-author {
-    border-top: 10px solid #EFEFEF;
-    border-radius:0px;
-}
-
-.node-type-author-page .field-name-field-author-page-name {
-	padding:10px 0 0 0;
-	color:#B0182F;
-	text-align:center;
-	font-size:20px;
-	line-height:35px;
-	font-family: Georgia, Times, 'Times New Roman', serif;
-	margin-bottom:20px;
-}
-
-.node-type-author-page .field-name-body {
-	text-align:center;
-}
-
-.node-type-author-page .view-other-articles-by-author .view-header {
-	padding:10px 0 0 0;
-	color:#B0182F;
-	text-align:center;
-	font-size:20px;
-	line-height:35px;
-	font-family: Georgia, Times, 'Times New Roman', serif;
-	margin-bottom:20px;
-}
-
-
-.node-type-author-page .view-other-articles-by-author .views-row {
-    border-top:1px solid #B0182F;
-    position:relative;
-}
-
 
 /*****************************************************************************/
 /*****************************************************************************/
@@ -2136,7 +2207,6 @@ body ul#sharebarp {
 .node-movement-tutorial.view-mode-full .field-name-body p {
 	padding-left:10px;
 	padding-right:10px;
-
 }
 .node-movement-tutorial.view-mode-full .field-name-body ol {
 	margin-right:10px;
