@@ -927,11 +927,20 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	padding-left: 5px;
 }
 
+/*
 .layout-responsive-region-sidebar_a {
 	padding:15px;
 	background:white;
 	border-radius:5px;
 	box-shadow: 0 2px 6px #efefef inset;
+}
+*/
+
+.front .layout-responsive-region-sidebar_a {
+    padding:0px;
+    background:none;
+    border-radius:0px;
+    box-shadow:none;
 }
 
 .sidebar-block-first {
@@ -945,7 +954,10 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	border-radius:5px;
 	box-shadow: 0 2px 6px #efefef inset;	
 	margin-top:10px;
-	padding-top:10px;
+}
+
+.sidebar-block-top-padding {
+    padding-top:25px;
 }
 
 .not-top-sidebar-element {
@@ -2760,6 +2772,7 @@ body ul#sharebarp {
 /*****************************************************************************/
 .pane-top-ranked-knowledge-articles h2 {
 	text-align:center;
+    margin-top:0px;
 }
  
 .views-row-last.top-ranked-article-block-row {
