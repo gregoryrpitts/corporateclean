@@ -1269,9 +1269,6 @@ body ul#sharebarp {
     margin-bottom:5px;
 }
 
-.front-page-content .white-shadowed-box {
-    padding-top:0px;
-}
 
 .front-page-headline {
     margin-bottom:10px;
@@ -2364,6 +2361,7 @@ body ul#sharebarp {
 .node-knowledge-series-page.view-mode-mini_teaser img {
 	float:left;
 	margin-right:5px;
+    padding:0px;
 }
 
 .node-knowledge-series-page.view-mode-mini_teaser h2 {
@@ -2545,23 +2543,40 @@ body ul#sharebarp {
 	display:block;
 }
 
+/*****************************************************************************/
+/*****************************************************************************/
+/* Knowledge Article - View Mode Teaser 	        						 */
+/*****************************************************************************/
+/*****************************************************************************/
 
-/*****************************************************************************/
-/* Knowledge Article Wide Teaser */
-/*****************************************************************************/
-.node-knowledge-article.view-mode-wide_teaser img {
-	float: left;
-	padding:0px;
-	margin-right:10px;
+.node-knowledge-article.view-mode-teaser {
+    margin-top:10px;
 }
 
-.node-knowledge-article.view-mode-wide_teaser h2 {
-	margin-top:15px;
-}	
+.node-knowledge-article.view-mode-teaser img {
+	float:left;
+	margin-right:5px;
+    padding:0px;
+    width:40%; 
+}
+
+.node-knowledge-article.view-mode-teaser .field-name-node-link {
+	text-align:right;
+	padding:5px;
+}
+
+.node-knowledge-article.view-mode-teaser .field-name-body {
+	font-size:14px;
+	line-height:23px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: Georgia, Times, 'Times New Roman', serif;	
+}
 
 /*****************************************************************************/
 /* Knowledge Article Teaser*/
 /*****************************************************************************/
+/*
 .node-knowledge-article.node-teaser {
 	 margin-bottom:10px;
 	 position:relative;
@@ -2599,6 +2614,21 @@ body ul#sharebarp {
 	 margin-bottom:10px!important;
 	 position:relative;
  }
+
+ */
+/*****************************************************************************/
+/* Knowledge Article Wide Teaser */
+/*****************************************************************************/
+.node-knowledge-article.view-mode-wide_teaser img {
+	float: left;
+	padding:0px;
+	margin-right:10px;
+}
+
+.node-knowledge-article.view-mode-wide_teaser h2 {
+	margin-top:15px;
+}	
+
 
 /*****************************************************************************/
 /* Knowledge Article Mini Teaser */
@@ -2729,15 +2759,10 @@ body ul#sharebarp {
 /*****************************************************************************/
 /*****************************************************************************/
 
-.sidebar-latest-sda-live {
-    position:relative;
-	border-top:3px dashed #e7e7e7;
-	border-bottom:3px dashed #e7e7e7;
-	border-radius:5px;
-}
 
 .sidebar-latest-sda-live-img {
-	width:50%;	
+	width:50%;
+    margin:auto;
 }
 
 .sidebar-latest-sda-live-img p {
@@ -2746,10 +2771,6 @@ body ul#sharebarp {
 
 .sidebar-latest-sda-live-title {
     color:black;
-    position:absolute;
-    top:15px;
-    right:-5px;
-    width:50%;
     line-height:29px;
     font-size:18px;
 	text-align:center;
@@ -2834,10 +2855,6 @@ body ul#sharebarp {
 	border-bottom:3px solid #b0182f;
 }
 
-.knowledge-series-page-intro .pane-content .white-shadowed-box {
-    box-shadow:none!important;    
-}
-
 .page-knowledge-series .field-name-field-title-to-display {
 	padding:0px 10px;
 	color:#B0182F;
@@ -2857,11 +2874,6 @@ body ul#sharebarp {
 	margin-bottom:0px;
 }
 
-.page-knowledge-series  .field-name-field-front-page-preview-image img {
-	padding:0px;
-	border-radius:5px;
-	border:1px black solid;
-}
 
 .page-knowledge-series .layout-responsive-region-body {
 	background:white;
