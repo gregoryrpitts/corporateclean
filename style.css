@@ -932,6 +932,11 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
 	border-radius:5px;
 	box-shadow: 0 2px 6px #efefef inset;	
 }
+@media (max-width:760px) {
+    .sidebar-block-first {
+        margin-top:10px;
+    }
+}
 
 .sidebar-block-not-first {
 	background:white;
@@ -1806,8 +1811,22 @@ body ul#sharebarp {
 /*****************************************************************************/
 /*****************************************************************************/
 .knowledge-main-page-section {
-	margin-bottom:20px;
+	margin-top:10px;
 }
+.knowledge-main-page-section-first {
+	margin-top:0px;
+}
+@media (min-width:761px) { 
+    .knowledge-main-page-intro-basic-page .node-page.view-mode-full{
+        height:485px;
+    }
+}
+@media (min-width:981px) { 
+    .knowledge-main-page-intro-basic-page .node-page.view-mode-full{
+        height:442px;
+    }
+}
+
 .knowledge-main-page-section .view-of-basic-page .views-field-title {
     color:#b0182f;
 	font-size:24px;
@@ -2796,7 +2815,7 @@ body ul#sharebarp {
 /* Top Ranked Knowledge Article Block*/
 /*****************************************************************************/
 /*****************************************************************************/
-.pane-top-ranked-knowledge-articles h2 {
+.pane-top-ranked-knowledge-articles h2.pane-title,.title {
 	text-align:center;
     margin-top:0px;
 }
@@ -2854,19 +2873,13 @@ body ul#sharebarp {
 /* Knowledge Series Page - Page that shows a Teaser of each Series. 		 */
 /*****************************************************************************/
 /*****************************************************************************/
-.knowledge-series-page-intro .pane-title {
-	font-size: 24px;
-    line-height: 39px;
-	color:#b0182f;
-	font-family: Georgia, Times, 'Times New Roman', serif;
-	border-bottom:3px solid #b0182f;
-}
 .page-knowledge-series .field-name-field-title-to-display {
 	padding:0px 10px;
 	color:#B0182F;
 	text-align:center;
 	margin-top: 10px;
-	width:95%;
+	margin-bottom:20px;
+    width:95%;
 	font-size:20px;
 	line-height:35px;
 	font-family: Georgia, Times, 'Times New Roman', serif;
@@ -2876,11 +2889,6 @@ body ul#sharebarp {
 }
 .page-knowledge-series .field-name-field-title-to-display p {
 	margin-bottom:0px;
-}
-.page-knowledge-series .layout-responsive-region-body {
-	background:white;
-	padding:10px;
-	border-radius:5px;
 }
 
 

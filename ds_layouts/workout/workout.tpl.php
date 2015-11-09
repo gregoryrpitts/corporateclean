@@ -21,17 +21,23 @@
   </<?php print $announcements_wrapper ?>>
   <?php endif; ?>
 
+    <?php if (!empty($fitness)):?>
   <<?php print $fitness_wrapper ?> class="workout-fitness <?php print $fitness_classes; ?>">
     <?php print $fitness; ?>
   </<?php print $fitness_wrapper ?>>
+  <?php endif; ?>
   
+    <?php if (!empty($crossFit)):?>
   <<?php print $crossFit_wrapper ?> class="workout-crossFit <?php print $crossFit_classes; ?>">
     <?php print $crossFit; ?>
   </<?php print $crossFit_wrapper ?>>
+  <?php endif; ?>
   
+    <?php if (!empty($bodybuilding)):?>
   <<?php print $bodybuilding_wrapper ?> class="workout-bodybuilding <?php print $bodybuilding_classes; ?>">
     <?php print $bodybuilding; ?>
   </<?php print $bodybuilding_wrapper ?>>
+    <?php endif; ?>
     
     <?php if (!empty($olympic)):?>
   <<?php print $olympic_wrapper ?> class="workout-olympic <?php print $olympic_classes; ?>">
