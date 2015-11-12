@@ -2611,6 +2611,38 @@ body ul#sharebarp {
 }
 
 /*****************************************************************************/
+/* Knowledge Article - View Mode Summary */
+/*****************************************************************************/
+.node-knowledge-article.view-mode-summary {
+	padding:10px!important;
+}
+.node-knowledge-article.view-mode-summary .field-name-title {
+	padding: 10px;
+    color: #B0182F;
+    border: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 95%;
+    font-size: 24px!important;
+    line-height: 39px!important;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.node-knowledge-article.view-mode-summary img {
+	max-width:90%;
+	padding:0px;
+	border:1px black solid;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
+.node-knowledge-article.view-mode-summary .field-name-node-link {
+	text-align:right;
+	padding-right:10px;
+	font-size:14px;
+}
+
+/*****************************************************************************/
 /* Knowledge Article - View Mode Teaser 	        						 */
 /*****************************************************************************/
 .node-knowledge-article.view-mode-teaser {
