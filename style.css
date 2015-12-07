@@ -2023,20 +2023,19 @@ body ul#sharebarp {
 		border-top:1px dashed #7F7F7F;
 	}	
 }
+
+
+/*****************************************************************************/
+/*****************************************************************************/
+/* Topic Category Page: 		     										 */
+/*****************************************************************************/
+/*****************************************************************************/
+
 .node-type-topic-category-page .field-name-field-topic-intro-reference .field-name-field-title-to-display {
 	border-bottom: 3px solid #B0182F;
 	font-size:28px;
 	text-align:left;
 	padding-bottom:5px;
-}
-.node-type-topic-category-page .category-page-workout-section {
-	margin-top:10px;
-}
-.node-type-topic-category-page .category-page-workout-section .layout-responsive-region-title {
-    background: white;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 6px #efefef inset;
 }
 .node-type-topic-category-page .category-page-knowledge-preview-section {
 	margin-top:10px;
@@ -2049,11 +2048,8 @@ body ul#sharebarp {
 	border-bottom:2px solid #b0182f;
 	margin-bottom:10px;
 }
-.node-type-topic-category-page .category-page-workout-section .layout-responsive-region-body {
-	padding: 15px;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 0 2px 6px #efefef inset;
+.node-type-topic-category-page .category-page-workout-section .category-page-workout-view {
+    padding:10px;
 }
 .node-type-topic-category-page .category-page-workout-view .views-field-title {
 	font-size:20px;
@@ -2079,9 +2075,14 @@ body ul#sharebarp {
 	margin-bottom:15px;
 	border-bottom: 3px solid #B0182F;
 }
-
-
-
+.node-type-topic-category-page .pane-movement-tutorials-view h2.pane-title {
+	font-size:20px;
+	color:#B0182f;
+	padding-bottom:5px;
+	margin-bottom:15px;
+    margin-top:0px;
+    text-align:center;
+}
 
 
 /*****************************************************************************/
